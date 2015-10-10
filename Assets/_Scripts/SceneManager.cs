@@ -46,7 +46,7 @@ public class SceneManager : MonoBehaviour {
 
             if (areAllEnemiesDead)
             {
-                //Debug.Log("all dead");
+                Debug.Log("all dead");
                 Door.OpenDoor();
             }
         }

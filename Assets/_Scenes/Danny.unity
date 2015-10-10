@@ -256,6 +256,10 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 302112773}
+    - target: {fileID: 11466570, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 1207608881}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
   m_IsPrefabParent: 0
@@ -1210,6 +1214,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentEnemyState: 0
+--- !u!114 &1207608881 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11426264, guid: 733f5313e8967ef4ba194e13f8410b74,
+    type: 2}
+  m_PrefabInternal: {fileID: 1784673198}
+  m_Script: {fileID: 11500000, guid: ba726b02038f22d40b06130546fed3ad, type: 3}
 --- !u!1 &1215467967
 GameObject:
   m_ObjectHideFlags: 0
