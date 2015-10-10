@@ -33,6 +33,7 @@ public class EnemyScript : MonoBehaviour {
             _health = 0;
             CurrentEnemyState = EnumEnemyState.DEAD;
             GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * damageValue, orginPosition);
+            tag = "Untagged";
         }
     }
 }
