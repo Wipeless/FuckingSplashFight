@@ -39,8 +39,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc592b1c0948ad4fb6063fcfc444665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 11408106, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
-  Door: {fileID: 11426264, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+  Player: {fileID: 0}
+  Door: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

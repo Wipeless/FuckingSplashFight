@@ -19,7 +19,6 @@ public class SceneManager : MonoBehaviour {
         if (Input.GetKey(KeyCode.Escape) && Application.loadedLevel == 0)
         {
             //only quit on esc for the main menu.  otherwise, use the pause menu.
-            Debug.Log("trying to quit");
             Application.Quit();
         }
     }
@@ -29,7 +28,6 @@ public class SceneManager : MonoBehaviour {
         if (Player.Attack)
         {
             //apply force to the entire scene of bad guys
-            Debug.Log("hi ya!");
 
             GameObject[] allEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
 
@@ -46,7 +44,6 @@ public class SceneManager : MonoBehaviour {
 
             if (areAllEnemiesDead)
             {
-                Debug.Log("all dead");
                 Door.OpenDoor();
             }
         }
