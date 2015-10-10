@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ae7432714a1d10a4b874e1884bbde77d
-timeCreated: 1444468114
+guid: eb5f3f8d6846a8249b5e6cb9cbb523e0
+timeCreated: 1444471265
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -42,9 +42,12 @@ ModelImporter:
     400032: Upper.001_end
     400034: Upper_end
     4300000: Cube
-    7400000: Armature|IdleCycle
-    7400002: Armature|IdleCycle.001
-    7400004: Armature|WalkCycle
+    7400000: Armature|AttackCycle1
+    7400002: Armature|DamageCycle
+    7400004: Armature|DeathAnim
+    7400006: Armature|IdleCycle
+    7400008: Armature|IdleCycle.001
+    7400010: Armature|WalkCycle
     9500000: //RootNode
     13700000: Cube
   materials:
@@ -68,6 +71,192 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
+      name: Armature|AttackCycle1
+      takeName: Armature|AttackCycle1
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lower
+        weight: 1
+      - path: Armature/Lower/Mid
+        weight: 1
+      - path: Armature/Lower/Mid/Mid_end
+        weight: 1
+      - path: Armature/Lower.001
+        weight: 1
+      - path: Armature/Lower.001/Lower.001_end
+        weight: 1
+      - path: Armature/PoleTarget
+        weight: 1
+      - path: Armature/PoleTarget/PoleTarget_end
+        weight: 1
+      - path: Armature/Upper
+        weight: 1
+      - path: Armature/Upper/Upper_end
+        weight: 1
+      - path: Armature/Upper PoleTarget
+        weight: 1
+      - path: Armature/Upper PoleTarget/Upper PoleTarget_end
+        weight: 1
+      - path: Armature/Upper.001
+        weight: 1
+      - path: Armature/Upper.001/Upper.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|DamageCycle
+      takeName: Armature|DamageCycle
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lower
+        weight: 1
+      - path: Armature/Lower/Mid
+        weight: 1
+      - path: Armature/Lower/Mid/Mid_end
+        weight: 1
+      - path: Armature/Lower.001
+        weight: 1
+      - path: Armature/Lower.001/Lower.001_end
+        weight: 1
+      - path: Armature/PoleTarget
+        weight: 1
+      - path: Armature/PoleTarget/PoleTarget_end
+        weight: 1
+      - path: Armature/Upper
+        weight: 1
+      - path: Armature/Upper/Upper_end
+        weight: 1
+      - path: Armature/Upper PoleTarget
+        weight: 1
+      - path: Armature/Upper PoleTarget/Upper PoleTarget_end
+        weight: 1
+      - path: Armature/Upper.001
+        weight: 1
+      - path: Armature/Upper.001/Upper.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|DeathAnim
+      takeName: Armature|DeathAnim
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lower
+        weight: 1
+      - path: Armature/Lower/Mid
+        weight: 1
+      - path: Armature/Lower/Mid/Mid_end
+        weight: 1
+      - path: Armature/Lower.001
+        weight: 1
+      - path: Armature/Lower.001/Lower.001_end
+        weight: 1
+      - path: Armature/PoleTarget
+        weight: 1
+      - path: Armature/PoleTarget/PoleTarget_end
+        weight: 1
+      - path: Armature/Upper
+        weight: 1
+      - path: Armature/Upper/Upper_end
+        weight: 1
+      - path: Armature/Upper PoleTarget
+        weight: 1
+      - path: Armature/Upper PoleTarget/Upper PoleTarget_end
+        weight: 1
+      - path: Armature/Upper.001
+        weight: 1
+      - path: Armature/Upper.001/Upper.001_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
       name: Armature|IdleCycle
       takeName: Armature|IdleCycle
       firstFrame: 0
@@ -77,8 +266,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -201,8 +390,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -256,7 +445,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .5
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
