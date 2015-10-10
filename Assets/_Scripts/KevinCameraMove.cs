@@ -7,6 +7,7 @@ using System.Collections;
 public class KevinCameraMove : MonoBehaviour
 {
     public Transform target;
+    public Transform lookTarget;
     public float distance = 20.0f;
     public float zoomSpd = 2.0f;
 
@@ -26,8 +27,8 @@ public class KevinCameraMove : MonoBehaviour
         y = 33f;
 
         // Make the rigid body not change rotation
-        //if (rigidbody)
-        //    rigidbody.freezeRotation = true;
+        if (GetComponent<Rigidbody>())
+            GetComponent<Rigidbody>().freezeRotation = true;
     }
 
     public void LateUpdate()
@@ -47,6 +48,12 @@ public class KevinCameraMove : MonoBehaviour
 
             transform.rotation = rotation;
             transform.position = position;
+        }
+
+        if (target && lookTarget)
+        {
+
+            target.transform.LookAt(lookTarget);
         }
     }
 

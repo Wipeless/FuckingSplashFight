@@ -62,4 +62,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+<<<<<<< HEAD
 *.meta
+=======
+Assets/_Scenes/Kevin.unity
+>>>>>>> origin/master
