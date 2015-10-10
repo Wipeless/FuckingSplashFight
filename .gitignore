@@ -72,3 +72,8 @@ test_Data/mainData
 .vs/FuckingSplashFight/v14/.suo
 test_Data/mainData
 *.dll
+test_Data/mainData
+test_Data/mainData
+test_Data/output_log.txt
+test_Data/Managed/Assembly-CSharp.dll
+*.dll
