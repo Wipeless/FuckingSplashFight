@@ -89,6 +89,22 @@ NavMeshSettings:
 Transform:
   m_PrefabParentObject: {fileID: 419994, guid: ecd4c097814c46b4085678eebc90f423, type: 2}
   m_PrefabInternal: {fileID: 356675395}
+--- !u!1 &96223694 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 194384, guid: ecd4c097814c46b4085678eebc90f423, type: 2}
+  m_PrefabInternal: {fileID: 356675395}
+--- !u!114 &96223699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 96223694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &246240654
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +117,7 @@ GameObject:
   - 65: {fileID: 246240658}
   - 23: {fileID: 246240657}
   - 54: {fileID: 246240656}
+  - 114: {fileID: 246240660}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Enemy
@@ -178,6 +195,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 246240654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &246240660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246240654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
+--- !u!114 &302112773 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11408106, guid: f925c215dd2f13547b6a0c55337a6246,
+    type: 2}
+  m_PrefabInternal: {fileID: 1385003149}
+  m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
 --- !u!1 &305331139
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +327,7 @@ Prefab:
     - target: {fileID: 11466570, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1321867096}
+      objectReference: {fileID: 302112773}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
   m_IsPrefabParent: 0
@@ -605,6 +640,7 @@ GameObject:
   - 65: {fileID: 738128779}
   - 23: {fileID: 738128778}
   - 54: {fileID: 738128777}
+  - 114: {fileID: 738128781}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Enemy
@@ -682,6 +718,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 738128775}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &738128781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738128775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1005581783
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +742,7 @@ GameObject:
   - 65: {fileID: 1005581786}
   - 23: {fileID: 1005581785}
   - 54: {fileID: 1005581784}
+  - 114: {fileID: 1005581789}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -771,6 +820,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 336002571}
   m_RootOrder: 0
+--- !u!114 &1005581789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005581783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1001 &1091951814
 Prefab:
   m_ObjectHideFlags: 0
@@ -841,6 +902,7 @@ GameObject:
   - 65: {fileID: 1105505809}
   - 23: {fileID: 1105505808}
   - 54: {fileID: 1105505807}
+  - 114: {fileID: 1105505811}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Enemy
@@ -918,6 +980,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105505805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1105505811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105505805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1165550691
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +1004,7 @@ GameObject:
   - 65: {fileID: 1165550694}
   - 23: {fileID: 1165550693}
   - 54: {fileID: 1165550692}
+  - 114: {fileID: 1165550697}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Enemy
@@ -1007,6 +1082,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1215467968}
   m_RootOrder: 4
+--- !u!114 &1165550697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1165550691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1173364920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1106,7 @@ GameObject:
   - 65: {fileID: 1173364924}
   - 23: {fileID: 1173364923}
   - 54: {fileID: 1173364922}
+  - 114: {fileID: 1173364926}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Enemy
@@ -1096,6 +1184,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173364920}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1173364926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173364920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1215467967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,12 +1228,6 @@ Transform:
   - {fileID: 1165550696}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &1321867096 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11435364, guid: f925c215dd2f13547b6a0c55337a6246,
-    type: 2}
-  m_PrefabInternal: {fileID: 1385003149}
-  m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
 --- !u!1 &1322234159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1240,7 @@ GameObject:
   - 65: {fileID: 1322234163}
   - 23: {fileID: 1322234162}
   - 54: {fileID: 1322234161}
+  - 114: {fileID: 1322234165}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Enemy
@@ -1223,6 +1318,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1322234159}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1322234165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322234159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1001 &1385003149
 Prefab:
   m_ObjectHideFlags: 0
@@ -1277,6 +1384,7 @@ GameObject:
   - 65: {fileID: 1385093389}
   - 23: {fileID: 1385093388}
   - 54: {fileID: 1385093387}
+  - 114: {fileID: 1385093391}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -1354,6 +1462,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1385093385}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1385093391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385093385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1461832322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1559,7 @@ GameObject:
   - 65: {fileID: 1635474116}
   - 23: {fileID: 1635474115}
   - 54: {fileID: 1635474114}
+  - 114: {fileID: 1635474118}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Enemy
@@ -1516,6 +1637,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1635474112}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1635474118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635474112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1671618859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1661,7 @@ GameObject:
   - 65: {fileID: 1671618862}
   - 23: {fileID: 1671618861}
   - 54: {fileID: 1671618860}
+  - 114: {fileID: 1671618865}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Enemy
@@ -1605,6 +1739,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694921130}
   m_RootOrder: 4
+--- !u!114 &1671618865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671618859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1694921129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,6 +1795,7 @@ GameObject:
   - 65: {fileID: 1775211341}
   - 23: {fileID: 1775211340}
   - 54: {fileID: 1775211339}
+  - 114: {fileID: 1775211343}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Enemy
@@ -1726,6 +1873,60 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1775211337}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1775211343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775211337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
+--- !u!1001 &1784673198
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.74000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 11.1499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 412918, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1867506592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +1939,7 @@ GameObject:
   - 65: {fileID: 1867506596}
   - 23: {fileID: 1867506595}
   - 54: {fileID: 1867506594}
+  - 114: {fileID: 1867506598}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Enemy
@@ -1815,6 +2017,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867506592}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1867506598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867506592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &1970415482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +2217,7 @@ GameObject:
   - 65: {fileID: 2023728683}
   - 23: {fileID: 2023728682}
   - 54: {fileID: 2023728681}
+  - 114: {fileID: 2023728685}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Enemy
@@ -2080,6 +2295,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023728679}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2023728685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023728679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0
 --- !u!1 &2062698185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,6 +2319,7 @@ GameObject:
   - 65: {fileID: 2062698189}
   - 23: {fileID: 2062698188}
   - 54: {fileID: 2062698187}
+  - 114: {fileID: 2062698191}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Enemy
@@ -2169,3 +2397,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062698185}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2062698191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062698185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentEnemyState: 0

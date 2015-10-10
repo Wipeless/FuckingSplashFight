@@ -8,7 +8,7 @@ public class damageOverlayController : MonoBehaviour
     float fade;
     CanvasGroup cg;
     Image myImage;
-    public Player player;
+    public PlayerScript player;
 
 
     // Use this for initialization

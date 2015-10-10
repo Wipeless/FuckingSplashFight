@@ -42,7 +42,7 @@ GameObject:
   - 54: {fileID: 5480486}
   - 136: {fileID: 13613026}
   - 114: {fileID: 11464288}
-  - 114: {fileID: 11435364}
+  - 114: {fileID: 11408106}
   m_Layer: 0
   m_Name: PlayerAnimation
   m_TagString: Player
@@ -541,7 +541,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11435364
+--- !u!114 &11408106
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DamageAmount: 25
   MoveRate: 10
-  ForcePower: 250
+  ForcePower: 200
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
   m_RunCycleLegOffset: .200000003
