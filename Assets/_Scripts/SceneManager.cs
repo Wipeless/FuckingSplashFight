@@ -44,10 +44,10 @@ public class SceneManager : MonoBehaviour {
 
             if (areAllEnemiesDead)
             {
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD
+ =======
                 //Debug.Log("all dead");
->>>>>>> origin/master
+>>>>>>> origin/master */
                 Door.OpenDoor();
             }
         }
