@@ -105,6 +105,7 @@ public class Player : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                Debug.Log("Attack!");
                 _attack = true;
                 m_Attacking = true;
             }
