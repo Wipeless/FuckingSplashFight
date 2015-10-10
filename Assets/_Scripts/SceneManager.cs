@@ -39,7 +39,15 @@ public class SceneManager : MonoBehaviour {
 
                 //check to see if all enemies are dead
                 if (e.GetComponent<EnemyScript>().CurrentEnemyState == EnemyScript.EnumEnemyState.ALIVE)
+                {
                     areAllEnemiesDead = false;
+                }
+            }
+
+            if (areAllEnemiesDead)
+            {
+                //Debug.Log("all dead");
+                Door.OpenDoor();
             }
         }
     }
