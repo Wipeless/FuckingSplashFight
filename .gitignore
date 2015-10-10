@@ -67,3 +67,8 @@ $RECYCLE.BIN/
 =======
 Assets/_Scenes/Kevin.unity
 >>>>>>> origin/master
+test_Data/mainData
+*.dll
+.vs/FuckingSplashFight/v14/.suo
+test_Data/mainData
+*.dll
