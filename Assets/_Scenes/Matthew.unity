@@ -1408,6 +1408,10 @@ Transform:
   - {fileID: 1492973034}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!4 &961420504 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 497558, guid: ac8f9e57360e0fd4b85bfb1fff0fa9d4, type: 2}
+  m_PrefabInternal: {fileID: 808808297}
 --- !u!1 &981214457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2923,9 @@ GameObject:
   - 92: {fileID: 2103725059}
   - 81: {fileID: 2103725058}
   - 114: {fileID: 2103725063}
+  - 114: {fileID: 2103725064}
+  - 95: {fileID: 2103725065}
+  - 114: {fileID: 2103725066}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -2987,8 +2994,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2103725057}
-  m_LocalRotation: {x: .120590307, y: -.915975511, z: .0499501415, w: .37940985}
-  m_LocalPosition: {x: 20.2900009, y: 3.57999992, z: 79.8300018}
+  m_LocalRotation: {x: 0, y: .70710659, z: 0, w: -.707106948}
+  m_LocalPosition: {x: 27.2600002, y: 3.57999992, z: 70.5299988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3004,8 +3011,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91e090943bc72744a90e329fe41ace5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  lookTarget: {fileID: 0}
+  target: {fileID: 961420504}
+  lookTarget: {fileID: 961420504}
+--- !u!114 &2103725064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103725057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd70d448b18cfbc46af26466f752332c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualizeFocus: 0
+  focalLength: 20.3400002
+  focalSize: 1.58000004
+  aperture: .662999988
+  focalTransform: {fileID: 0}
+  maxBlurSize: 2
+  highResolution: 0
+  blurType: 1
+  blurSampleCount: 2
+  nearBlur: 0
+  foregroundOverlap: 1
+  dofHdrShader: {fileID: 4800000, guid: acd613035ff3e455e8abf23fdc8c8c24, type: 3}
+  dx11BokehShader: {fileID: 4800000, guid: d8e82664aa8686642a424c88ab10164a, type: 3}
+  dx11BokehThreshold: .5
+  dx11SpawnHeuristic: .0874999985
+  dx11BokehTexture: {fileID: 2800000, guid: a4cdca73d61814d33ac1587f6c163bca, type: 3}
+  dx11BokehScale: 1.20000005
+  dx11BokehIntensity: 2.5
+--- !u!95 &2103725065
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103725057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 785334c03bb3d1f469d13ebafe2fd0e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &2103725066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103725057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: .800000012
+  extraBlur: 0
 --- !u!1 &2105722238
 GameObject:
   m_ObjectHideFlags: 0
