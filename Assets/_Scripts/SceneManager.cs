@@ -16,8 +16,9 @@ public class SceneManager : MonoBehaviour {
 
     private void HandleQuit()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape) && Application.loadedLevel == 0)
         {
+            //only quit on esc for the main menu.  otherwise, use the pause menu.
             Debug.Log("trying to quit");
             Application.Quit();
         }

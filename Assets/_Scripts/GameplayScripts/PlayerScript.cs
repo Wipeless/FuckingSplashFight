@@ -3,6 +3,9 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerScript : MonoBehaviour {
 
+    //HUD variables
+    public HUD_Gameplay HUD;
+
     //Gameplay variables
     private bool _attack = false;   public bool Attack {  get { return _attack;  } }
     private bool _inPuddle = false;
