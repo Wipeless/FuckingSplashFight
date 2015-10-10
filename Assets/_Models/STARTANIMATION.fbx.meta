@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 7043618f76cae1149adc78d88a9dd78c
+timeCreated: 1444458216
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmIK.L
+    100004: ArmIK.L_end
+    100006: ArmIK.R
+    100008: ArmIK.R_end
+    100010: Bob
+    100012: Bone
+    100014: Chest
+    100016: Elbow.L
+    100018: Elbow.L_end
+    100020: Elbow.R
+    100022: Elbow.R_end
+    100024: Foot.L
+    100026: Foot.L_end
+    100028: Foot.R
+    100030: Foot.R_end
+    100032: FootIK.L
+    100034: FootIK.R
+    100036: Forearm.L
+    100038: Forearm.L_end
+    100040: Forearm.R
+    100042: Forearm.R_end
+    100044: Head
+    100046: Head_end
+    100048: Knee.L
+    100050: Knee.L_end
+    100052: Knee.R
+    100054: Knee.R_end
+    100056: LowerLeg.L
+    100058: LowerLeg.L_end
+    100060: LowerLeg.R
+    100062: LowerLeg.R_end
+    100064: //RootNode
+    100066: Stomach
+    100068: UpperArm.L
+    100070: UpperArm.R
+    100072: UpperLeg.L
+    100074: UpperLeg.R
+    400000: Armature
+    400002: ArmIK.L
+    400004: ArmIK.L_end
+    400006: ArmIK.R
+    400008: ArmIK.R_end
+    400010: Bob
+    400012: Bone
+    400014: Chest
+    400016: Elbow.L
+    400018: Elbow.L_end
+    400020: Elbow.R
+    400022: Elbow.R_end
+    400024: Foot.L
+    400026: Foot.L_end
+    400028: Foot.R
+    400030: Foot.R_end
+    400032: FootIK.L
+    400034: FootIK.R
+    400036: Forearm.L
+    400038: Forearm.L_end
+    400040: Forearm.R
+    400042: Forearm.R_end
+    400044: Head
+    400046: Head_end
+    400048: Knee.L
+    400050: Knee.L_end
+    400052: Knee.R
+    400054: Knee.R_end
+    400056: LowerLeg.L
+    400058: LowerLeg.L_end
+    400060: LowerLeg.R
+    400062: LowerLeg.R_end
+    400064: //RootNode
+    400066: Stomach
+    400068: UpperArm.L
+    400070: UpperArm.R
+    400072: UpperLeg.L
+    400074: UpperLeg.R
+    4300000: Bob
+    7400000: Action
+    7400002: WalkCycle
+    7400004: Armature|Movement
+    7400006: Armature|WalkCycle
+    9500000: //RootNode
+    13700000: Bob
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
