@@ -15,6 +15,8 @@ public class Player : MonoBehaviour {
     public float ForcePower = 200;
 
     bool m_Damaged;
+    bool m_Dead;
+    bool m_Attacking;
     float m_TurnAmount;
     Vector3 m_GroundNormal;
     float m_ForwardAmount;
@@ -44,7 +46,10 @@ public class Player : MonoBehaviour {
             m_Damaged = true;
 
             if (_health < 0)
+            {
                 _health = 0;
+                m_Dead = true;
+            }
         }
     }
 
@@ -77,6 +82,7 @@ public class Player : MonoBehaviour {
     void Update () {
 
         _attack = false;
+        m_Attacking = false;
 
 	    if(Input.GetKey(KeyCode.W))
         {
@@ -100,6 +106,7 @@ public class Player : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 _attack = true;
+                m_Attacking = true;
             }
         }
 
@@ -133,6 +140,8 @@ public class Player : MonoBehaviour {
         m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
         m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
         m_Animator.SetBool("Damaged", m_Damaged);
+        m_Animator.SetBool("Dead", m_Dead);
+        m_Animator.SetBool("Attacking", m_Attacking);
 
         // calculate which leg is behind, so as to leave that leg trailing in the jump animation
         // (This code is reliant on the specific run cycle offset in our animations,
