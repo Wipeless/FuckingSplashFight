@@ -18,6 +18,9 @@ public class cameraFollowPlayer : MonoBehaviour
     {
         if (target && lookTarget)
         {
+            //hard coding! watch out!
+            //transform.position = new Vector3(transform.position.x, transform.position.y, lookTarget.position.z);
+
             target.transform.LookAt(lookTarget);
         }
     }

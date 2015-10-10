@@ -856,6 +856,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentEnemyState: 0
+--- !u!4 &1031551325 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 407354, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
+  m_PrefabInternal: {fileID: 1385003149}
 --- !u!1001 &1091951814
 Prefab:
   m_ObjectHideFlags: 0
@@ -1397,6 +1401,10 @@ Prefab:
       propertyPath: HUD
       value: 
       objectReference: {fileID: 1981765385}
+    - target: {fileID: 11408106, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
+      propertyPath: m_Cam
+      value: 
+      objectReference: {fileID: 1970415487}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
   m_IsPrefabParent: 0
@@ -2069,6 +2077,7 @@ GameObject:
   - 92: {fileID: 1970415485}
   - 124: {fileID: 1970415484}
   - 81: {fileID: 1970415483}
+  - 114: {fileID: 1970415488}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2143,6 +2152,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &1970415488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970415482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e090943bc72744a90e329fe41ace5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1970415487}
+  lookTarget: {fileID: 1031551325}
 --- !u!114 &1981765385 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11445148, guid: fc365804eb6c44943b6c222611fc4771,

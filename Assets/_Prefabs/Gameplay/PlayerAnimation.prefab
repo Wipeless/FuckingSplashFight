@@ -283,7 +283,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 75.7099991}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 456478}
@@ -517,7 +517,7 @@ Rigidbody:
   m_GameObject: {fileID: 115234}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: .0500000007
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -554,8 +554,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HUD: {fileID: 0}
   DamageAmount: 25
-  MoveRate: 10
+  MoveRate: 20
   ForcePower: 200
+  m_Cam: {fileID: 0}
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
   m_RunCycleLegOffset: .200000003

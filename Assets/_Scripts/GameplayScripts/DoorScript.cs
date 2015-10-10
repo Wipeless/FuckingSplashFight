@@ -16,37 +16,29 @@ public class DoorScript : MonoBehaviour {
 	void Start () {
         startPosition = transform.position;
         endPosition = transform.position + endPositionOffset;
-
-        isOpenRequest = false;
-        isOpen = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-       // if (isOpenRequest)
-       // {
-            Debug.Log("opening");
-
-            Vector3.Lerp(transform.position, endPosition, openRate);
+        if (isOpenRequest && !isOpen)
+        {
+            transform.position = Vector3.Lerp(transform.position, endPosition, openRate);
 
             if (Vector3.Distance(transform.position, endPosition) < 0.5f)
             {
                 transform.position = endPosition;
                 isOpen = true;
             }
-    //    }*/
+        }
 	}
 
     public void OpenDoor()
     {
-     //   if (!isOpenRequest)
-     //   {
-            Debug.Log("open the damn door");
+        if (!isOpenRequest)
+        {
 
             isOpenRequest = true;
-        // }
-
-        transform.position = endPosition;
+        }
     }
 }

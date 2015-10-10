@@ -13,9 +13,13 @@ public class PlayerScript : MonoBehaviour {
     public float DamageAmount = 25;   //amount of damage the player takes when hit
 
     //Animation variables
+    private Vector3 m_Move;
     const float k_Half = 0.5f;
     public float MoveRate = 10;
     public float ForcePower = 200;
+
+    public Transform m_Cam;                  // A reference to the main camera in the scenes transform
+    private Vector3 m_CamForward;             // The current forward direction of the camera
 
     bool m_Damaged;
     bool m_Dead;
@@ -35,6 +39,9 @@ public class PlayerScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+        if (m_Cam == null)
+            Debug.LogWarning("You forgot to set the camera for the Player!");
 
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody>();
@@ -87,22 +94,25 @@ public class PlayerScript : MonoBehaviour {
         _attack = false;
         m_Attacking = false;
 
-	    if(Input.GetKey(KeyCode.W))
+        Vector3 inputForce = Vector3.zero;
+        
+	   /* if(Input.GetKey(KeyCode.W))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, MoveRate));
+            inputForce = new Vector3(0, 0, MoveRate);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(-MoveRate, 0, 0));
+            inputForce = new Vector3(-MoveRate, 0, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, -MoveRate));
+            inputForce = new Vector3(0, 0, -MoveRate);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(MoveRate, 0, 0));
-        }
+            inputForce = new Vector3(MoveRate, 0, 0);
+        }*/
+        
 
         if (!_attack && _inPuddle)
         {
@@ -117,17 +127,44 @@ public class PlayerScript : MonoBehaviour {
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
 
-        Vector3 move = v * Vector3.forward + h * Vector3.right;
+        //Debug.Log("v: " + v + " h: " + h);
+        //inputForce = new Vector3(h * MoveRate, 0, v * MoveRate);
 
-        if (move.magnitude > 1f) move.Normalize();
-        move = transform.InverseTransformDirection(move);
-        move = Vector3.ProjectOnPlane(move, m_GroundNormal);
-        m_TurnAmount = Mathf.Atan2(move.x, move.z);
-        m_ForwardAmount = move.z;
+        // calculate move direction to pass to character
+        if (m_Cam != null)
+        {
+            // calculate camera relative direction to move:
+            m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+
+            //Debug.Log("cam forward: " + m_CamForward);
+            m_Move = v * m_CamForward + h * m_Cam.right;
+
+            //Debug.Log("m move: " + m_Move);
+
+           inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+           //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+
+        }
+        else
+        {
+            // we use world-relative directions in the case of no main camera
+            m_Move = v * Vector3.forward + h * Vector3.right;
+        }
+
+        GetComponent<Rigidbody>().AddForce(inputForce);
+
+
+        m_Move = v * Vector3.forward + h * Vector3.right;
+
+        if (m_Move.magnitude > 1f) m_Move.Normalize();
+        m_Move = transform.InverseTransformDirection(m_Move);
+        m_Move = Vector3.ProjectOnPlane(m_Move, m_GroundNormal);
+        m_TurnAmount = Mathf.Atan2(m_Move.x, m_Move.z);
+        m_ForwardAmount = m_Move.z;
 
         ApplyExtraTurnRotation();
 
-        UpdateAnimator(move);
+        UpdateAnimator(m_Move);
 
     }
 
