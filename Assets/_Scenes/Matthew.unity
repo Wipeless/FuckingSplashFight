@@ -1419,6 +1419,7 @@ GameObject:
   - 33: {fileID: 981214461}
   - 64: {fileID: 981214460}
   - 23: {fileID: 981214459}
+  - 114: {fileID: 981214462}
   m_Layer: 0
   m_Name: Wall03b-near
   m_TagString: Untagged
@@ -1481,6 +1482,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 981214457}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &981214462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 981214457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6211bd03901d164ab39767c0f0f64c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
 --- !u!1 &1105718438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1579,7 @@ GameObject:
   - 33: {fileID: 1219074208}
   - 64: {fileID: 1219074207}
   - 23: {fileID: 1219074206}
+  - 114: {fileID: 1219074209}
   m_Layer: 0
   m_Name: Wall03b-far
   m_TagString: Untagged
@@ -1594,7 +1609,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d9d955e3264578e46a83d1f36ccd3f46, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1627,6 +1642,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219074204}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1219074209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219074204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6211bd03901d164ab39767c0f0f64c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
 --- !u!1 &1301558886
 GameObject:
   m_ObjectHideFlags: 0
