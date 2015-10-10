@@ -1223,6 +1223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DamageAmount: 25
   MoveRate: 10
   ForcePower: 250
   m_MovingTurnSpeed: 360

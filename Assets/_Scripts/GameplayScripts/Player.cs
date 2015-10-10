@@ -3,13 +3,18 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour {
 
+    //Gameplay variables
     private bool _attack = false;   public bool Attack {  get { return _attack;  } }
     private bool _inPuddle = false;
+    private int _health = 100;      public int Health { get { return _health; } }
+    public int DamageAmount = 25;   //amount of damage the player takes when hit
 
+    //Animation variables
     const float k_Half = 0.5f;
     public float MoveRate = 10;
     public float ForcePower = 200;
 
+    bool m_Damaged;
     float m_TurnAmount;
     Vector3 m_GroundNormal;
     float m_ForwardAmount;
@@ -29,6 +34,29 @@ public class Player : MonoBehaviour {
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody>();
 	}
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("enemy collision");
+            _health -= DamageAmount;
+            m_Damaged = true;
+
+            if (_health < 0)
+                _health = 0;
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+//            Debug.Log("exit enemy collision");
+            m_Damaged = false;
+
+        }
+    }
 
     void OnTriggerEnter(Collider collision)
     {
@@ -104,7 +132,7 @@ public class Player : MonoBehaviour {
         // update the animator parameters
         m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
         m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
-
+        m_Animator.SetBool("Damaged", m_Damaged);
 
         // calculate which leg is behind, so as to leave that leg trailing in the jump animation
         // (This code is reliant on the specific run cycle offset in our animations,
