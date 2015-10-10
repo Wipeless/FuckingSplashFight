@@ -17,8 +17,8 @@ Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\te
 Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.063 seconds
-desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+- Completed reload, in  0.128 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
@@ -30,8 +30,2786 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 28b8 -> priority: 1 
-  Thread -> id: 34b8 -> priority: 1 
+  Thread -> id: 3458 -> priority: 1 
+  Thread -> id: 2a7c -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
+  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
 NullReferenceException: Object reference not set to an instance of an object
   at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
   at SceneManager.Update () [0x00000] in <filename unknown>:0 
@@ -519,840 +3297,47 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.354790 ms
+UnloadTime: 4.495318 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 434.
-Total: 0.337898 ms (FindLiveObjects: 0.028816 ms CreateObjectMapping: 0.021316 ms MarkObjects: 0.266450 ms  DeleteObjects: 0.020526 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 620.
+Total: 0.308293 ms (FindLiveObjects: 0.031579 ms CreateObjectMapping: 0.024473 ms MarkObjects: 0.234081 ms  DeleteObjects: 0.017368 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+  at damageOverlayController.Start () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+  at damageOverlayController.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+enemy collision
  
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+  at damageOverlayController.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+puddle collision with player!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+player is colliding with puddle
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+puddle collision with player!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at PlayerScript.UpdateAnimator (Vector3 move) [0x00000] in <filename unknown>:0 
-  at PlayerScript.Update () [0x00000] in <filename unknown>:0 
+player is colliding with puddle
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-trying to quit
+Attack!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
