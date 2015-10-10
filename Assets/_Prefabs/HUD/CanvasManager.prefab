@@ -350,7 +350,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8187720d2966d784fba7d4b9b2ca2a42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af765574e74881f4bbb73710d0310eeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -532,7 +532,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8187720d2966d784fba7d4b9b2ca2a42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af765574e74881f4bbb73710d0310eeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 151596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a66b9aaa4dedc243b8a53319f67c20b, type: 3}
+  m_Script: {fileID: 11500000, guid: 818085df2461ea4409cf8f731161eedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Panel_Background: {fileID: 136562}
@@ -765,7 +765,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8187720d2966d784fba7d4b9b2ca2a42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af765574e74881f4bbb73710d0310eeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
