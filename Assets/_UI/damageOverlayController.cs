@@ -23,22 +23,17 @@ public class damageOverlayController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        cg.alpha = 1f - ((float)player.Health / 100f);
+        Debug.Log(1f - ((float)player.Health / 100f));
         if (Input.GetKeyDown("]"))
         {
             fade += 0.05f; if (fade > 1) fade = 1;  // from 0.0 to 1.0
-            //Color c = myImage.color;
-            //c.a = fade;
-            //myImage.color = new Color(c.r, c.g, c.b, fade);
             cg.alpha = fade;
 
         }
         if (Input.GetKeyDown("["))
         {
             fade -= 0.05f; if (fade < 0) fade = 0;  // from 0.0 to 1.0
-            //Color c = myImage.color;
-            //c.a = fade;
-            //myImage.color = new Color(c.r, c.g, c.b, fade);
             cg.alpha = fade;
 
         }
