@@ -134,7 +134,7 @@ public class EnemyScript : HumanBaseScript {
                 break;
             case EnumEnemyStates.AGGRESS:
                 transform.LookAt(AggressTarget);
-                transform.Rotate(Vector3.up, 90f);
+                //transform.Rotate(Vector3.up, 90f);  //an extra offset for enemies not facing the right direction
                 transform.position = Vector3.MoveTowards(transform.position, AggressTarget.position, pursueRate);
                 break;
         }
