@@ -128,6 +128,38 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 101418, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 133034, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 145612, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 192158, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 185918, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 163582, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 155858, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 112628, guid: 05b00e8fb50837448a546893955de320, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05b00e8fb50837448a546893955de320, type: 2}
   m_IsPrefabParent: 0
@@ -416,7 +448,7 @@ GameObject:
   - 33: {fileID: 247997285}
   - 64: {fileID: 247997284}
   - 23: {fileID: 247997283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +522,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 286290973}
   - 108: {fileID: 286290974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,6 +617,38 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 105086, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 139884, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 177198, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 136906, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 186254, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 186764, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 161396, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107326, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
   m_IsPrefabParent: 0
@@ -657,7 +721,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 445832705}
   - 108: {fileID: 445832706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +793,7 @@ GameObject:
   - 64: {fileID: 582137313}
   - 23: {fileID: 582137312}
   - 114: {fileID: 582137311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall03b-near
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +889,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 672404180}
   - 167: {fileID: 672404181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Reverb Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +949,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 693273860}
   - 108: {fileID: 693273861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,6 +1042,10 @@ Prefab:
     - target: {fileID: 104988, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
       propertyPath: m_Name
       value: Door1_2_entry
+      objectReference: {fileID: 0}
+    - target: {fileID: 104988, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
@@ -1075,7 +1143,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 898828119}
   - 108: {fileID: 898828120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1138,7 +1206,7 @@ GameObject:
   - 33: {fileID: 928046672}
   - 65: {fileID: 928046671}
   - 23: {fileID: 928046670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_3_TriggerBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1279,7 @@ GameObject:
   - 33: {fileID: 942790240}
   - 64: {fileID: 942790239}
   - 23: {fileID: 942790238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall03d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1285,7 +1353,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 978147221}
   - 108: {fileID: 978147222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1432,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!114 &1008367071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,7 +1470,7 @@ GameObject:
   - 33: {fileID: 1037339808}
   - 64: {fileID: 1037339807}
   - 23: {fileID: 1037339806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall03a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1754,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1318340576}
   - 108: {fileID: 1318340577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1784,6 +1852,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 104988, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
   m_IsPrefabParent: 0
@@ -1799,7 +1871,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1544365356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Room03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1922,6 +1994,22 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 199470, guid: 01f231bc0faa7e54c9a24cfbf4fcfd55, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 180866, guid: 01f231bc0faa7e54c9a24cfbf4fcfd55, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 174206, guid: 01f231bc0faa7e54c9a24cfbf4fcfd55, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184898, guid: 01f231bc0faa7e54c9a24cfbf4fcfd55, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01f231bc0faa7e54c9a24cfbf4fcfd55, type: 2}
   m_IsPrefabParent: 0
@@ -1986,7 +2074,7 @@ GameObject:
   - 33: {fileID: 1675073933}
   - 64: {fileID: 1675073932}
   - 23: {fileID: 1675073931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall03c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2152,6 +2240,22 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 175580, guid: d1c1d479b58002c40b4eb9301a6a4af4, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197230, guid: d1c1d479b58002c40b4eb9301a6a4af4, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 107488, guid: d1c1d479b58002c40b4eb9301a6a4af4, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 179728, guid: d1c1d479b58002c40b4eb9301a6a4af4, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1c1d479b58002c40b4eb9301a6a4af4, type: 2}
   m_IsPrefabParent: 0
@@ -2166,7 +2270,7 @@ GameObject:
   - 33: {fileID: 1893745616}
   - 65: {fileID: 1893745615}
   - 23: {fileID: 1893745614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Level3_final_TriggerBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2442,7 +2546,7 @@ GameObject:
   - 64: {fileID: 2009803166}
   - 23: {fileID: 2009803165}
   - 114: {fileID: 2009803164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall03b-far
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2563,6 +2667,22 @@ Prefab:
     - target: {fileID: 168216, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 158124, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 103630, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 105284, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 168216, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69e599db2a65a4a4f9868396d432df37, type: 2}
