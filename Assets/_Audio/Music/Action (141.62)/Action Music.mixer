@@ -36,7 +36,7 @@ AudioMixerController:
     - 1a8531118bed1364183dc6653355a8e8
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24570762}
+  m_TargetSnapshot: {fileID: 24580536}
 --- !u!243 &24300001
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -420,7 +420,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 1
+  m_Name: Room1
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: e36889db3edba6c44809221457fb8343
   m_FloatValues:
@@ -467,7 +467,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 2
+  m_Name: Room2
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 47152fe618041fe449ea506414e8b48f
   m_FloatValues:
@@ -484,7 +484,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 1 - Damaged
+  m_Name: Room1Damaged
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 59170cfa44971fa44b16027280b15081
   m_FloatValues:
@@ -517,7 +517,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 2 - Damaged
+  m_Name: Room2Damaged
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 1799ea74792563f4d9f28c34f7a7634c
   m_FloatValues:
@@ -551,7 +551,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 3
+  m_Name: Room3
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 023b2e025e642754196a51456a2e2686
   m_FloatValues:
@@ -569,7 +569,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 3 - Damaged
+  m_Name: Room3Damaged
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: bf5401960e446394ebe9b355e0484cfa
   m_FloatValues:
@@ -603,11 +603,13 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Arp Solo
+  m_Name: ArpSolo
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: db5f1b65ea3854344b47076387fde0b2
   m_FloatValues:
     b72b15e091bc7a44f8a1c29db0b6313f: -80
+    c9671911431d47b409b33e8c0337082e: -80
+    fb86e5729a82adf48b9868f87f048706: -80
     8778a8d2f989ae74a95255cb95857406: -80
     ec7e75bd44c51aa45b2fed05b5eb4f03: -80
   m_TransitionOverrides: {}
@@ -616,7 +618,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Bass Solo
+  m_Name: BassSolo
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 22ce2adccea3fd04dafa1660b8ef9550
   m_FloatValues:
@@ -629,7 +631,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Room 1 - Combat
+  m_Name: Room1Combat
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 516606876cfc75a4fa5a0cfd44ee2411
   m_FloatValues:
