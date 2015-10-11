@@ -3,6 +3,7 @@
 public class SceneManager : MonoBehaviour {
 
     public PlayerScript Player;
+    public LevelManagerScript LevelManger;
     public DoorScript Door1_Entry;
     public DoorScript Door1_Exit;
     public DoorScript Door2_Entry;
@@ -10,11 +11,18 @@ public class SceneManager : MonoBehaviour {
     public DoorScript Door3_Entry;
     public DoorScript Door3_Exit;
 
-    static bool startNewLevel = false;  public static void ResetSceneState() { startNewLevel = true; } 
-    bool areAllEnemiesDead = false;
+    static bool startNewLevel = false;      public static void ResetSceneState() { startNewLevel = true; } 
+    static bool areAllEnemiesDead = false; 
     static bool playerDead = false;
 
     public static bool IsPlayerDead { get { return playerDead; } }
+
+    private float playerDeadTimer;              //timer upon the player's death. once done, go to game over scene
+    private float playerDeadTimerLimit = 5;
+
+    private bool prepareWin = false;
+    private float playerWinTimer;              //timer upon the player's victory. once done, go to game over scene
+    private float playerWinTimerLimit = 5;
 
     const int maxNumSFX_enemy = 10;
     public static int numSFX_enemy = 0;  
@@ -31,7 +39,8 @@ public class SceneManager : MonoBehaviour {
     void Update()
     {
         HandleQuit();
-        HandlePlayer();
+        if(Player != null)
+           HandlePlayer();
         HandleDoors();
         HandleSceneState();
     }
@@ -73,6 +82,25 @@ public class SceneManager : MonoBehaviour {
             startNewLevel = false;
             areAllEnemiesDead = false;
         }
+        else if (LevelManger != null)
+        {
+            if (LevelManger.CurrentLevel == LevelManagerScript.EnumLevels.LEVEL3)
+            {
+                if (areAllEnemiesDead)
+                {
+                    if (!prepareWin)
+                    {
+                        prepareWin = true;
+                        playerWinTimer = Time.time;
+                    }
+
+                    if (Time.time - playerWinTimer > playerWinTimerLimit)
+                        GoToGameOver_Won();
+                }
+                else
+                    prepareWin = false;
+            }
+        }
     }
 
     private void HandleQuit()
@@ -106,11 +134,19 @@ public class SceneManager : MonoBehaviour {
         {
             if (!playerDead)
             {
+                //mark the player dead for the scene manager
                 playerDead = true;
+                playerDeadTimer = Time.time;
 
                 GameObject[] remainingEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
                 foreach (GameObject o in remainingEnemies)
                     o.GetComponent<EnemyScript>().CurrentEnemyState = EnemyScript.EnumEnemyStates.ROAM;
+            }
+            else
+            {
+                //after the player has been dead for a bit, transition to gameover loss
+                if(Time.time - playerDeadTimer > playerDeadTimerLimit)
+                    GoToGameOver_Lost();
             }
         }
     }
@@ -152,5 +188,19 @@ public class SceneManager : MonoBehaviour {
     public void OnClickMainMenu()
     {
         Application.LoadLevel(1);
+    }
+    public void OnClickGameOver()
+    {
+        Application.LoadLevel(0);
+    }
+
+    private void GoToGameOver_Won()
+    {
+        Application.LoadLevel(3);
+    }
+
+    private void GoToGameOver_Lost()
+    {
+        Application.LoadLevel(2);
     }
 }

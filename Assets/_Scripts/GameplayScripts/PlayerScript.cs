@@ -14,7 +14,7 @@ public class PlayerScript : HumanBaseScript {
     public EnumControlMode CurrentControlMode = EnumControlMode.NORMAL;
 
     //HUD variables
-    public HUD_Gameplay HUD;
+    public HUD_Gameplay HUD_PauseMenu;
 
     //Gameplay variables
 
@@ -122,12 +122,13 @@ public class PlayerScript : HumanBaseScript {
 
     void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
-        {
-//            Debug.Log("exit enemy collision");
-            m_Damaged = false;
+//        if (collision.gameObject.tag == "Enemy")
+//        {
+////            Debug.Log("exit enemy collision");
+//            m_Damaged = false;
+//        }
+        m_Damaged = false;
 
-        }
     }
 
     void OnTriggerEnter(Collider collision)
@@ -160,7 +161,7 @@ public class PlayerScript : HumanBaseScript {
             }
         }
 
-        if (HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
+        if (HUD_PauseMenu.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
             CurrentControlMode == EnumControlMode.NORMAL)
             HandleInput();
         else if (CurrentControlMode == EnumControlMode.AUTO)
