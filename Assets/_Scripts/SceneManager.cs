@@ -187,7 +187,7 @@ public class SceneManager : MonoBehaviour {
 
     public void OnClickMainMenu()
     {
-        Application.LoadLevel(1);
+        Application.LoadLevel(4);       //4 is the intro scene (1 is the gameplay
     }
     public void OnClickGameOver()
     {

@@ -89,9 +89,16 @@ public class SlideShowScript : MonoBehaviour {
             {
                 currentlyFadingOut = false;
                 Debug.Log("done fading out");
+
+                GoToGameplay();
             }
         }
 
+    }
+
+    private void GoToGameplay()
+    {
+        Application.LoadLevel(1);
     }
      
     void initiateTimer()
