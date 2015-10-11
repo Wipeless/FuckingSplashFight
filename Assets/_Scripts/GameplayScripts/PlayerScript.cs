@@ -181,8 +181,8 @@ public class PlayerScript : HumanBaseScript {
 
         GetComponent<Rigidbody>().AddForce(inputForce);
 
-        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
-       // m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
+       // m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+        m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);
