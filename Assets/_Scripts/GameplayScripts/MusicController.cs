@@ -17,18 +17,17 @@ public class MusicController : MonoBehaviour {
     public AudioMixerSnapshot Room3Damaged;
     
     public float bpm = 141;
-
-
+    
     private float m_TransitionIn;
-    private float m_TransitionOut;
+    // private float m_TransitionOut;
     private float m_QuarterNote;
 
     // Use this for initialization
     void Start()
     {
         m_QuarterNote = 60 / bpm;
-        m_TransitionIn = m_QuarterNote;
-        m_TransitionOut = m_QuarterNote * 2;
+        m_TransitionIn = 0;
+        // m_TransitionOut = 0;
 
     }
 
@@ -36,7 +35,7 @@ public class MusicController : MonoBehaviour {
     {
         if (other.CompareTag("MusicRoom1"))
         {
-            Room1.TransitionTo(m_TransitionIn);
+            Room1Combat.TransitionTo(m_TransitionIn);
         }
         if (other.CompareTag("MusicRoom2"))
         {
@@ -48,7 +47,7 @@ public class MusicController : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit(Collider other)
+    /* void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("MusicRoom1"))
         {
@@ -62,5 +61,5 @@ public class MusicController : MonoBehaviour {
         {
             Room3.TransitionTo(m_TransitionOut);
         }
-    }
+    }*/
 }
