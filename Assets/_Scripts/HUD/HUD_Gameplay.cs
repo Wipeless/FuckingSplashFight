@@ -8,13 +8,14 @@ public class HUD_Gameplay : MonoBehaviour {
     public GameObject Button_Quit;
     public GameObject Text_Title;
 
-    private enum EnumCurrentHUDState
+    public enum EnumCurrentHUDState
     {
         DISPLAYED = 0,
         NOTDISPLAYED,
     }
 
     private EnumCurrentHUDState currentHUDState = EnumCurrentHUDState.NOTDISPLAYED;
+    public EnumCurrentHUDState CurrentHUDState { get { return currentHUDState; } }
 
 	void Start () {
         HideMenus();

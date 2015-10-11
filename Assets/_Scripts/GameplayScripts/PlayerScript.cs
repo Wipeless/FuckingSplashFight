@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(CapsuleCollider))]
-[RequireComponent(typeof(Animator))]
-public class PlayerScript : MonoBehaviour {
+
+public class PlayerScript : HumanBaseScript {
 
     //HUD variables
     public HUD_Gameplay HUD;
@@ -12,7 +10,6 @@ public class PlayerScript : MonoBehaviour {
     //Gameplay variables
     private bool _attack = false;   public bool Attack {  get { return _attack;  } }
     private bool _inPuddle = false;
-    private float _health = 100;      public float Health { get { return _health; } }
     public float DamageAmount = 25;   //amount of damage the player takes when hit
 
     //Animation variables
@@ -37,9 +34,6 @@ public class PlayerScript : MonoBehaviour {
     [SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 
 
-    Animator m_Animator;
-    Rigidbody m_RigidBody;
-
     // Use this for initialization
     void Start () {
 
@@ -50,6 +44,7 @@ public class PlayerScript : MonoBehaviour {
         m_RigidBody = GetComponent<Rigidbody>();
 
         m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -57,13 +52,14 @@ public class PlayerScript : MonoBehaviour {
         if(collision.gameObject.tag == "Enemy")
         {
             Debug.Log("enemy collision");
-            _health -= DamageAmount;
+            health -= DamageAmount;
             m_Damaged = true;
 
-            if (_health < 0)
+            if (health < 0)
             {
-                _health = 0;
+                health = 0;
                 m_Dead = true;
+                CurrentHealthState = EnumHealthState.DEAD;
             }
         }
     }
@@ -99,25 +95,14 @@ public class PlayerScript : MonoBehaviour {
         _attack = false;
         m_Attacking = false;
 
+        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED ||
+            CurrentHealthState == EnumHealthState.ALIVE)
+            HandleInput();
+    }
+
+    private void HandleInput()
+    {
         Vector3 inputForce = Vector3.zero;
-        
-	   /* if(Input.GetKey(KeyCode.W))
-        {
-            inputForce = new Vector3(0, 0, MoveRate);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            inputForce = new Vector3(-MoveRate, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            inputForce = new Vector3(0, 0, -MoveRate);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            inputForce = new Vector3(MoveRate, 0, 0);
-        }*/
-        
 
         if (!_attack && _inPuddle)
         {
@@ -132,9 +117,6 @@ public class PlayerScript : MonoBehaviour {
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
 
-        //Debug.Log("v: " + v + " h: " + h);
-        //inputForce = new Vector3(h * MoveRate, 0, v * MoveRate);
-
         // calculate move direction to pass to character
         if (m_Cam != null)
         {
@@ -146,9 +128,8 @@ public class PlayerScript : MonoBehaviour {
 
             //Debug.Log("m move: " + m_Move);
 
-           inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
-           //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
-
+            inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+            //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
         }
         else
         {
@@ -158,8 +139,8 @@ public class PlayerScript : MonoBehaviour {
 
         GetComponent<Rigidbody>().AddForce(inputForce);
 
-
-        m_Move = (h * Vector3.forward) + (-v * Vector3.right);
+        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+       // m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);
@@ -170,7 +151,6 @@ public class PlayerScript : MonoBehaviour {
         ApplyExtraTurnRotation();
 
         UpdateAnimator(m_Move);
-
     }
 
     void ApplyExtraTurnRotation()
