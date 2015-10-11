@@ -207,6 +207,7 @@ GameObject:
   - 54: {fileID: 5414784}
   - 136: {fileID: 13617022}
   - 114: {fileID: 11481480}
+  - 82: {fileID: 8297354}
   m_Layer: 0
   m_Name: HeroAnimated
   m_TagString: Player
@@ -802,7 +803,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 81.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 482948}
@@ -1195,6 +1196,76 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!82 &8297354
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128938}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9515940
 Animator:
   serializedVersion: 3
@@ -1223,11 +1294,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   HUD: {fileID: 0}
   DamageAmount: 25
   MoveRate: 20
-  ForcePower: 200
+  ForcePower: 150
   m_Cam: {fileID: 0}
+  Clip_Attack1: {fileID: 8300000, guid: aeba77d27e8308e44b2998c69bb9afd4, type: 3}
+  Clip_Attack2: {fileID: 8300000, guid: a69020411ae11224b8180d9472fb7731, type: 3}
+  Clip_Hurt1: {fileID: 8300000, guid: 3bee9ab831571fd4cb3cb9efdf7a58ff, type: 3}
+  Clip_Hurt2: {fileID: 8300000, guid: 45dd57f4a3b23374a83162d9495758fe, type: 3}
+  Clip_Death: {fileID: 8300000, guid: 7c726778eb5b8f44684469c01cabb3ae, type: 3}
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
   m_RunCycleLegOffset: .200000003

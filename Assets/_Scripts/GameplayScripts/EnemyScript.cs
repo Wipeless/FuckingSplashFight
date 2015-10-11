@@ -26,12 +26,26 @@ public class EnemyScript : HumanBaseScript {
     private const float deathTimeLimitMin = 2;
     private const float deathTimeLimitMax = 4;
 
+    //audio variables
+    public AudioClip Clip_Attack1;
+    public AudioClip Clip_Attack2;
+    public AudioClip Clip_Attack3;
+    public AudioClip Clip_Hurt;
+    public AudioClip Clip_Death1;
+    public AudioClip Clip_Death2;
+    public AudioClip Clip_Death3;
+    public AudioClip Clip_Aggress1;
+    public AudioClip Clip_Aggress2;
+    public AudioClip Clip_Aggress3;
+
     [SerializeField]
     float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 
 
     // Use this for initialization
     void Start () {
+        audio = GetComponent<AudioSource>();
+
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody>();
 
@@ -59,6 +73,28 @@ public class EnemyScript : HumanBaseScript {
         UpdateEnemyAnimator();
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //attack player
+            int rand = Random.Range(0, 2);
+            switch (rand)
+            {
+                case 0:
+                    audio.PlayOneShot(Clip_Attack1, 1);
+                    break;
+                case 1:
+                    audio.PlayOneShot(Clip_Attack2, 1);
+                    break;
+                case 2:
+                    audio.PlayOneShot(Clip_Attack3, 1);
+                    break;
+
+            }
+        }
+    }
+
     void HandleAggressionBehavior()
     {
         switch (CurrentEnemyState)
@@ -68,6 +104,19 @@ public class EnemyScript : HumanBaseScript {
                 {
                     //aggress player
                     CurrentEnemyState = EnumEnemyStates.AGGRESS;
+                    int rand = Random.Range(0, 2);
+                    switch (rand)
+                    {
+                        case 0:
+                            audio.PlayOneShot(Clip_Aggress1, 1);
+                            break;
+                        case 1:
+                            audio.PlayOneShot(Clip_Aggress2, 1);
+                            break;
+                        case 2:
+                            audio.PlayOneShot(Clip_Aggress3, 1);
+                            break;
+                    }
                 }
                 break;
             case EnumEnemyStates.AGGRESS:
@@ -92,7 +141,19 @@ public class EnemyScript : HumanBaseScript {
             m_RigidBody.constraints = RigidbodyConstraints.None;
             m_Dead = true;
             deathTimer = Time.time;
-
+            int rand = Random.Range(0, 3);
+            switch (rand)
+            {
+                case 0:
+                    audio.PlayOneShot(Clip_Death1, 1);
+                    break;
+                case 1:
+                    audio.PlayOneShot(Clip_Death2, 1);
+                    break;
+                case 2:
+                    audio.PlayOneShot(Clip_Death3, 1);
+                    break;
+            }
             GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * damageValue, orginPosition);
             tag = "Untagged";
         }

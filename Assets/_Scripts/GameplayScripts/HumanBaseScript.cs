@@ -17,6 +17,7 @@ public class HumanBaseScript : MonoBehaviour {
 
     protected float health = 100; public float Health { get { return health; } }
 
+    protected AudioSource audio;
 
     //Animation parameters
     protected bool m_Damaged;

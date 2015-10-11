@@ -371,9 +371,9 @@ GameObject:
   - 4: {fileID: 436974}
   - 95: {fileID: 9568104}
   - 54: {fileID: 5459118}
-  - 136: {fileID: 13631886}
   - 65: {fileID: 6527652}
   - 114: {fileID: 11471278}
+  - 82: {fileID: 8210188}
   m_Layer: 0
   m_Name: EnemyAnimated
   m_TagString: Enemy
@@ -1208,6 +1208,76 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .699999988, y: 2, z: .699999988}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!82 &8210188
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162928}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9568104
 Animator:
   serializedVersion: 3
@@ -1239,20 +1309,17 @@ MonoBehaviour:
   CurrentHealthState: 0
   CurrentEnemyState: 0
   AggressTarget: {fileID: 0}
+  Clip_Attack1: {fileID: 8300000, guid: 4ed6213762cb02547b36e7bc9b8f2d0c, type: 3}
+  Clip_Attack2: {fileID: 8300000, guid: a564686e5ef846845b04942aa00cd6db, type: 3}
+  Clip_Attack3: {fileID: 8300000, guid: 4852c81ec762e6141a0e623171147c39, type: 3}
+  Clip_Hurt: {fileID: 8300000, guid: 0a19459444cdc8942a47df2021e3b5ac, type: 3}
+  Clip_Death1: {fileID: 8300000, guid: cc8534956c5febb429120590dc66d293, type: 3}
+  Clip_Death2: {fileID: 8300000, guid: e800e5e3430bc0b44ba95505c64e649e, type: 3}
+  Clip_Death3: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
+  Clip_Aggress1: {fileID: 8300000, guid: 09f3ad6e6c2137d4dbd780f8d16b9a00, type: 3}
+  Clip_Aggress2: {fileID: 8300000, guid: cf59e59e6abffed429b705b49fbd1d9c, type: 3}
+  Clip_Aggress3: {fileID: 8300000, guid: 0866466100338f0458857e1c91f80846, type: 3}
   m_RunCycleLegOffset: .200000003
---- !u!136 &13631886
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162928}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: .5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!137 &13750620
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

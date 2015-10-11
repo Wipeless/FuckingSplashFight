@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
+[RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(CapsuleCollider))]
 public class PlayerScript : HumanBaseScript {
 
@@ -32,13 +33,20 @@ public class PlayerScript : HumanBaseScript {
     Vector3 m_GroundNormal;
 
 
+    //audio variables
+    public AudioClip Clip_Attack1;
+    public AudioClip Clip_Attack2;
+    public AudioClip Clip_Hurt1;
+    public AudioClip Clip_Hurt2;
+    public AudioClip Clip_Death;
+
     [SerializeField] float m_MovingTurnSpeed = 360;
     [SerializeField] float m_StationaryTurnSpeed = 180;
     [SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
-
-
     // Use this for initialization
     void Start () {
+
+        audio = GetComponent<AudioSource>();
 
         if (m_Cam == null)
             Debug.LogWarning("You forgot to set the camera for the Player!");
@@ -55,6 +63,16 @@ public class PlayerScript : HumanBaseScript {
         if(collision.gameObject.tag == "Enemy")
         {
             Debug.Log("enemy collision");
+            int rand = Random.Range(0, 1);
+            switch (rand)
+            {
+                case 0:
+                    audio.PlayOneShot(Clip_Hurt1, 1);
+                    break;
+                case 1:
+                    audio.PlayOneShot(Clip_Hurt2, 1);
+                    break;
+            }
             health -= DamageAmount;
             m_Damaged = true;
 
@@ -62,6 +80,7 @@ public class PlayerScript : HumanBaseScript {
             {
                 health = 0;
                 m_Dead = true;
+                audio.PlayOneShot(Clip_Death, 1);
                 CurrentHealthState = EnumHealthState.DEAD;
             }
         }
@@ -124,6 +143,16 @@ public class PlayerScript : HumanBaseScript {
                 attackInit = true;
                 m_Attacking = true;
                 attackTimer = Time.time;
+                int rand = Random.Range(0, 2);
+                switch (rand)
+                {
+                    case 0:
+                        audio.PlayOneShot(Clip_Attack1, 1);
+                        break;
+                    case 1:
+                        audio.PlayOneShot(Clip_Attack2, 1);
+                        break;
+                }
             }
         }
 
