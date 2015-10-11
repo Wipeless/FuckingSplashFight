@@ -379,6 +379,74 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05b00e8fb50837448a546893955de320, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &15889204 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 185918, guid: 05b00e8fb50837448a546893955de320, type: 2}
+  m_PrefabInternal: {fileID: 15889203}
+--- !u!1 &15889205 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 145612, guid: 05b00e8fb50837448a546893955de320, type: 2}
+  m_PrefabInternal: {fileID: 15889203}
+--- !u!1 &15889206 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 192158, guid: 05b00e8fb50837448a546893955de320, type: 2}
+  m_PrefabInternal: {fileID: 15889203}
+--- !u!1 &15889207 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 133034, guid: 05b00e8fb50837448a546893955de320, type: 2}
+  m_PrefabInternal: {fileID: 15889203}
+--- !u!114 &15889208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15889204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &15889209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15889205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &15889210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15889206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &15889211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15889207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
 --- !u!1 &122491642
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +848,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294965759
   m_Lightmapping: 4
   m_BounceIntensity: 5.13000011
   m_ShadowRadius: 0
@@ -1064,6 +1132,74 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &317855967 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 177198, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+  m_PrefabInternal: {fileID: 317855966}
+--- !u!1 &317855968 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 139884, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+  m_PrefabInternal: {fileID: 317855966}
+--- !u!1 &317855969 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 136906, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+  m_PrefabInternal: {fileID: 317855966}
+--- !u!1 &317855970 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 186254, guid: 35f0e7ea19ae7424088531f9d94e809e, type: 2}
+  m_PrefabInternal: {fileID: 317855966}
+--- !u!114 &317855971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317855967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &317855972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317855968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &317855973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317855969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
+--- !u!114 &317855974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317855970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab8034e17fb65c478be4070dad5af5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleX: 1
+  scaleY: 1
 --- !u!4 &409291732 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443404, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
@@ -1346,7 +1482,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294965759
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -1636,7 +1772,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7
-  m_Range: 16.2199993
+  m_Range: 14.1000004
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1651,7 +1787,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966015
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -1761,7 +1897,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966527
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -1825,7 +1961,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966527
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -1958,7 +2094,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294965759
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -2018,7 +2154,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966015
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -2228,7 +2364,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294965759
   m_Lightmapping: 4
   m_BounceIntensity: 5.13000011
   m_ShadowRadius: 0
@@ -2718,7 +2854,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966015
   m_Lightmapping: 4
   m_BounceIntensity: 1.47000003
   m_ShadowRadius: 0
@@ -2778,7 +2914,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966527
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
@@ -2924,7 +3060,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966527
   m_Lightmapping: 4
   m_BounceIntensity: 1
   m_ShadowRadius: 0
