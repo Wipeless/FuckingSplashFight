@@ -13,7 +13,6 @@ public class LevelManagerScript : MonoBehaviour {
     private float transitionTimer;
     private const float transitionTimerLimit = 2;
 
-
     //level 1 entities
     public GameObject Level1_Puddle;
     public GameObject Level1_Enemy1;
@@ -57,7 +56,7 @@ public class LevelManagerScript : MonoBehaviour {
 
     public EnumLevels CurrentLevel = EnumLevels.LEVEL1;
 
-    public bool isRequestLevelChange = false;
+    private bool isRequestLevelChange = false;
 
 	// Use this for initialization
 	void Start () {
@@ -202,8 +201,8 @@ public class LevelManagerScript : MonoBehaviour {
             Hallway3.SetActive(false);
 
         Door2_3_entry.GetComponent<MeshRenderer>().enabled = false;
-
-        Player.transform.position = Door2_3_entry.transform.position + new Vector3(0, 0, 2);
+        
+        Player.transform.position = new Vector3(Door2_3_entry.transform.position.x, Player.transform.position.y, Door2_3_entry.transform.position.z + 2);
         Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Door2_3_entry.transform.position.z - 2);
     }
 
@@ -240,7 +239,7 @@ public class LevelManagerScript : MonoBehaviour {
 
         Door3_final_entry.GetComponent<MeshRenderer>().enabled = false;
 
-        Player.transform.position = Door3_final_entry.transform.position + new Vector3(0, 0, 2);
+        Player.transform.position = new Vector3(Door3_final_entry.transform.position.x, Player.transform.position.y, Door3_final_entry.transform.position.z + 2);
         Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Door3_final_entry.transform.position.z - 2);
     }
 }

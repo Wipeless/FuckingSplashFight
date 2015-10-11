@@ -44,7 +44,7 @@ GameObject:
   - 114: {fileID: 11464288}
   - 114: {fileID: 11408106}
   m_Layer: 0
-  m_Name: PlayerAnimation
+  m_Name: TofuAnimation
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,11 +552,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HUD: {fileID: 0}
+  CurrentHealthState: 0
+  CurrentControlMode: 0
+  HUD_PauseMenu: {fileID: 0}
   DamageAmount: 25
   MoveRate: 20
   ForcePower: 200
   m_Cam: {fileID: 0}
+  Clip_Attack1: {fileID: 0}
+  Clip_Attack2: {fileID: 0}
+  Clip_Hurt1: {fileID: 0}
+  Clip_Hurt2: {fileID: 0}
+  Clip_Death: {fileID: 0}
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
   m_RunCycleLegOffset: .200000003

@@ -209,7 +209,7 @@ GameObject:
   - 114: {fileID: 11481480}
   - 82: {fileID: 8297354}
   m_Layer: 0
-  m_Name: HeroAnimated
+  m_Name: PlayerAnimated
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1295,7 +1295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHealthState: 0
-  HUD: {fileID: 0}
+  CurrentControlMode: 0
+  HUD_PauseMenu: {fileID: 0}
   DamageAmount: 25
   MoveRate: 20
   ForcePower: 150
