@@ -2284,7 +2284,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 404738, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 9.4074707
+      value: 16.9899998
       objectReference: {fileID: 0}
     - target: {fileID: 404738, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4263,6 +4263,10 @@ Prefab:
       propertyPath: Door3_Exit
       value: 
       objectReference: {fileID: 57771899}
+    - target: {fileID: 11466570, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
+      propertyPath: LevelManger
+      value: 
+      objectReference: {fileID: 1008367071}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
   m_IsPrefabParent: 0
@@ -4515,7 +4519,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 418220, guid: a4da9ae6f7e010d459a03034d2c90f84, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 1.12863159
+      value: -3.20000005
       objectReference: {fileID: 0}
     - target: {fileID: 418220, guid: a4da9ae6f7e010d459a03034d2c90f84, type: 2}
       propertyPath: m_LocalRotation.x

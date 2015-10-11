@@ -3,6 +3,7 @@
 public class SceneManager : MonoBehaviour {
 
     public PlayerScript Player;
+    public LevelManagerScript LevelManger;
     public DoorScript Door1_Entry;
     public DoorScript Door1_Exit;
     public DoorScript Door2_Entry;
@@ -10,14 +11,18 @@ public class SceneManager : MonoBehaviour {
     public DoorScript Door3_Entry;
     public DoorScript Door3_Exit;
 
-    static bool startNewLevel = false;  public static void ResetSceneState() { startNewLevel = true; } 
-    bool areAllEnemiesDead = false;
+    static bool startNewLevel = false;      public static void ResetSceneState() { startNewLevel = true; } 
+    static bool areAllEnemiesDead = false; 
     static bool playerDead = false;
 
     public static bool IsPlayerDead { get { return playerDead; } }
 
     private float playerDeadTimer;              //timer upon the player's death. once done, go to game over scene
-    private float playerDeadTimerLimit = 3;
+    private float playerDeadTimerLimit = 5;
+
+    private bool prepareWin = false;
+    private float playerWinTimer;              //timer upon the player's victory. once done, go to game over scene
+    private float playerWinTimerLimit = 5;
 
     const int maxNumSFX_enemy = 10;
     public static int numSFX_enemy = 0;  
@@ -77,6 +82,25 @@ public class SceneManager : MonoBehaviour {
             startNewLevel = false;
             areAllEnemiesDead = false;
         }
+        else if (LevelManger != null)
+        {
+            if (LevelManger.CurrentLevel == LevelManagerScript.EnumLevels.LEVEL3)
+            {
+                if (areAllEnemiesDead)
+                {
+                    if (!prepareWin)
+                    {
+                        prepareWin = true;
+                        playerWinTimer = Time.time;
+                    }
+
+                    if (Time.time - playerWinTimer > playerWinTimerLimit)
+                        GoToGameOver_Won();
+                }
+                else
+                    prepareWin = false;
+            }
+        }
     }
 
     private void HandleQuit()
@@ -121,7 +145,8 @@ public class SceneManager : MonoBehaviour {
             else
             {
                 //after the player has been dead for a bit, transition to gameover loss
-                GoToGameOver_Lost();
+                if(Time.time - playerDeadTimer > playerDeadTimerLimit)
+                    GoToGameOver_Lost();
             }
         }
     }

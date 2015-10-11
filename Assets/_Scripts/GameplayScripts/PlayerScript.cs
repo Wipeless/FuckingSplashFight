@@ -122,12 +122,13 @@ public class PlayerScript : HumanBaseScript {
 
     void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
-        {
-//            Debug.Log("exit enemy collision");
-            m_Damaged = false;
+//        if (collision.gameObject.tag == "Enemy")
+//        {
+////            Debug.Log("exit enemy collision");
+//            m_Damaged = false;
+//        }
+        m_Damaged = false;
 
-        }
     }
 
     void OnTriggerEnter(Collider collision)
