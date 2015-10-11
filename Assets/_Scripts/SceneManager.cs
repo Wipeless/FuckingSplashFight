@@ -10,7 +10,7 @@ public class SceneManager : MonoBehaviour {
     public DoorScript Door3_Entry;
     public DoorScript Door3_Exit;
 
-    bool startNewLevel = false;
+    static bool startNewLevel = false;  public static void ResetSceneState() { startNewLevel = true; } 
     bool areAllEnemiesDead = false;
     static bool playerDead = false;
 
@@ -33,6 +33,7 @@ public class SceneManager : MonoBehaviour {
         HandleQuit();
         HandlePlayer();
         HandleDoors();
+        HandleSceneState();
     }
 
     public static bool IncrementSFX()
@@ -62,6 +63,16 @@ public class SceneManager : MonoBehaviour {
                 result = true;
         }
         return result;
+    }
+
+    private void HandleSceneState()
+    {
+        if (startNewLevel)
+        {
+            Debug.Log("SceneManager: the level has started");
+            startNewLevel = false;
+            areAllEnemiesDead = false;
+        }
     }
 
     private void HandleQuit()
@@ -108,6 +119,7 @@ public class SceneManager : MonoBehaviour {
     {
         if (areAllEnemiesDead)
         {
+            //Debug.Log("all enemies dead");
             //open the exit scene doors
             if (Door1_Exit != null)
                 Door1_Exit.OpenDoor();
@@ -118,6 +130,8 @@ public class SceneManager : MonoBehaviour {
         }
         else if (startNewLevel)
         {
+            Debug.Log("start new level");
+
             //close all doors
             if (Door1_Exit != null)
                 Door1_Exit.CloseDoor();

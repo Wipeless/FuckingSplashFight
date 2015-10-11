@@ -4,7 +4,6 @@
 
 public class EnemyScript : HumanBaseScript
 {
-    public ParticleSystem part;
     public ParticleCollisionEvent[] collisionEvents;
 
     public enum EnumEnemyStates
@@ -15,6 +14,8 @@ public class EnemyScript : HumanBaseScript
     }
 
     public EnumEnemyStates CurrentEnemyState = EnumEnemyStates.NEUTRAL;
+
+    private bool isInitialized = false;
 
     public Transform AggressTarget;
     private float aggressionTimer;
@@ -58,7 +59,6 @@ public class EnemyScript : HumanBaseScript
     // Use this for initialization
     void Start()
     {
-        part = GetComponent<ParticleSystem>();
         collisionEvents = new ParticleCollisionEvent[16];
 
         audio = GetComponent<AudioSource>();
@@ -68,13 +68,20 @@ public class EnemyScript : HumanBaseScript
 
         m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
+        if (isActiveAndEnabled)
+            InitializeEnemy();
+    }
+
+    private void InitializeEnemy()
+    {
+        isInitialized = true;
+
         pursueRate = Random.Range(pursueRateMin, pursueRateMax);
 
         aggressionTimerLimit = Random.Range(aggressionTimerLimitMin, aggressionTimerLimitMax);
         aggressionTimer = Time.time;
 
         deathTimeLimit = Random.Range(deathTimeLimitMin, deathTimeLimitMax);
-
 
         roamPosition = new Vector3(Random.RandomRange(-roamRangeMin, roamRangeMax), 0, Random.Range(-roamRangeMin, roamRangeMax)) + transform.position;
 
@@ -84,8 +91,6 @@ public class EnemyScript : HumanBaseScript
             CurrentEnemyState = EnumEnemyStates.NEUTRAL;
         else
             CurrentEnemyState = EnumEnemyStates.ROAM;
-
-
     }
 
     // Update is called once per frame
@@ -284,7 +289,7 @@ public class EnemyScript : HumanBaseScript
         //Collider collider = other.GetComponent<Collider>();
 
         //GameObject g = collider.gameObject;
-            Debug.Log("Collision Detected, " + other.name + ".  GameObject: ");// + g.tag);
+        //Debug.Log("Collision Detected, " + other.name + ".  GameObject: ");// + g.tag);
         if (tag == "Enemy")
             tag = "EnemyDead";
 

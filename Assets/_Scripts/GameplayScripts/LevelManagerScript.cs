@@ -13,6 +13,19 @@ public class LevelManagerScript : MonoBehaviour {
     private float transitionTimer;
     private const float transitionTimerLimit = 2;
 
+
+    //level 1 entities
+    public GameObject Level1_Puddle;
+    public GameObject Level1_Enemy1;
+
+    //level 2 entities
+    public GameObject Level2_Puddle;
+    public GameObject Level2_Enemy1;
+
+    //level 3 entities
+    public GameObject Level3_Puddle;
+    public GameObject Level3_Enemy1;
+
     public GameObject Player;
     public GameObject Camera;
 
@@ -60,7 +73,6 @@ public class LevelManagerScript : MonoBehaviour {
             CurrentLevelState = EnumLevelState.PREPARING;
             Player.GetComponent<PlayerScript>().CurrentControlMode = PlayerScript.EnumControlMode.AUTO;
 
-            Debug.Log("tiemr set: " + Time.time);
             transitionTimer = Time.time;
            
             switch (CurrentLevel)
@@ -104,6 +116,7 @@ public class LevelManagerScript : MonoBehaviour {
                 if (Time.time - transitionTimer > transitionTimerLimit)
                 {
                     Debug.Log("everything set. start level!");
+                    SceneManager.ResetSceneState();
                     CurrentLevelState = EnumLevelState.NORMAL;
                     Player.GetComponent<PlayerScript>().CurrentControlMode = PlayerScript.EnumControlMode.NORMAL;
                 }
@@ -120,6 +133,9 @@ public class LevelManagerScript : MonoBehaviour {
 
     private void LoadLevel1()
     {
+        Level1_Enemy1.SetActive(true);
+        Level1_Puddle.SetActive(true);
+
         if (Room1 != null)
             Room1.SetActive(true);
         if (Door1_2_exit != null)
@@ -145,25 +161,20 @@ public class LevelManagerScript : MonoBehaviour {
             Hallway2.SetActive(false);
         if (Hallway3 != null)
             Hallway3.SetActive(false);
-        
-        /*
-        Doorway3.SetActive(true);
-        Room3.SetActive(true);
-        Door1_2_entry.SetActive(true);
 
-        Doorway1.SetActive(false);
-        Doorway2.SetActive(false);
-        Room1.SetActive(false);
-        Room2.SetActive(false);
-        Door1_2_exit.SetActive(false);
-        Door2_3_entry.SetActive(false);
-        Door2_3_exit.SetActive(false);
-        Door3_final.SetActive(false);
-        */
+        //speical case: hide all entities except for the current first level
+        Level2_Enemy1.SetActive(false);
+        Level2_Puddle.SetActive(false);
+
+        Level3_Enemy1.SetActive(false);
+        Level3_Puddle.SetActive(false);
     }
 
     private void LoadLevel2()
     {
+        Level2_Enemy1.SetActive(true);
+        Level2_Puddle.SetActive(true);
+
         if (Room2 != null)
             Room2.SetActive(true);
         if (Door2_3_entry != null)
@@ -187,44 +198,49 @@ public class LevelManagerScript : MonoBehaviour {
         if (Door3_final_exit != null)
             Door3_final_exit.SetActive(false);
 
-
         if (Hallway3 != null)
             Hallway3.SetActive(false);
 
+        Door2_3_entry.GetComponent<MeshRenderer>().enabled = false;
+
         Player.transform.position = Door2_3_entry.transform.position + new Vector3(0, 0, 2);
         Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Door2_3_entry.transform.position.z - 2);
-
-        /*
-        Doorway2.SetActive(true);
-        Doorway3.SetActive(true);
-        Room2.SetActive(true);
-        Door1_2_exit.SetActive(true);
-        Door2_3_entry.SetActive(true);
-
-        Doorway1.SetActive(false);
-        Room1.SetActive(false);
-        Room3.SetActive(false);
-        Door1_2_entry.SetActive(false);
-        Door2_3_exit.SetActive(false);
-        Door3_final.SetActive(false); */
-
     }
 
     private void LoadLevel3()
     {
-        /*
-        Doorway1.SetActive(true);
-        Doorway2.SetActive(true);
-        Room1.SetActive(true);
-        Door2_3_exit.SetActive(true);
-        Door3_final.SetActive(true);
+        Level3_Enemy1.SetActive(true);
+        Level3_Puddle.SetActive(true);
 
-        Doorway3.SetActive(false);
-        Room2.SetActive(false);
-        Room3.SetActive(false);
-        Door1_2_entry.SetActive(false);
-        Door1_2_exit.SetActive(false);
-        Door2_3_entry.SetActive(false);
-        */
+        if (Room3 != null)
+            Room3.SetActive(true);
+        if (Door3_final_entry != null)
+            Door3_final_entry.SetActive(true);
+        if (Door3_final_exit != null)
+            Door3_final_exit.SetActive(true);
+        if (Hallway2 != null)
+            Hallway2.SetActive(true);
+        if (Hallway3 != null)
+            Hallway3.SetActive(true);
+
+        if (Room1 != null)
+            Room1.SetActive(false);
+        if (Room2 != null)
+            Room2.SetActive(false);
+
+        if (Door1_2_exit != null)
+            Door1_2_exit.SetActive(false);
+        if (Door2_3_entry != null)
+            Door2_3_entry.SetActive(false);
+        if (Door2_3_exit != null)
+            Door2_3_exit.SetActive(false);
+
+        if (Hallway1 != null)
+            Hallway1.SetActive(false);
+
+        Door3_final_entry.GetComponent<MeshRenderer>().enabled = false;
+
+        Player.transform.position = Door3_final_entry.transform.position + new Vector3(0, 0, 2);
+        Camera.transform.position = new Vector3(Camera.transform.position.x, Camera.transform.position.y, Door3_final_entry.transform.position.z - 2);
     }
 }

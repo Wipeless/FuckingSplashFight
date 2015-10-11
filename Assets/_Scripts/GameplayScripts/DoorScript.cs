@@ -16,7 +16,7 @@ public class DoorScript : MonoBehaviour {
     float closeRate = 0.5f;
 
     private bool isCloseRequest = false;
-    private bool isClose = false;
+    private bool isClose = true;
 
     // Use this for initialization
     void Start () {
@@ -27,25 +27,39 @@ public class DoorScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (isOpenRequest && !isOpen)
+        if (isOpenRequest)
         {
-            transform.position = Vector3.Lerp(transform.position, openPosition, openRate);
-
-            if (Vector3.Distance(transform.position, openPosition) < 0.5f)
+            if (!isOpen)
             {
-                transform.position = openPosition;
-                isOpen = true;
+                transform.position = Vector3.Lerp(transform.position, openPosition, openRate);
+
+                if (Vector3.Distance(transform.position, openPosition) < 0.25f)
+                {
+                    transform.position = openPosition;
+                    isOpen = true;
+                    isClose = false;
+                    isOpenRequest = false;
+                }
             }
+            else
+                isOpenRequest = false;
         }
-        else if (isCloseRequest && !isClose)
+        else if (isCloseRequest)
         {
-            transform.position = Vector3.Lerp(transform.position, closePosition, closeRate);
-
-            if (Vector3.Distance(transform.position, closePosition) < 0.5f)
+            if (!isClose)
             {
-                transform.position = closePosition;
-                isClose = true;
+                transform.position = Vector3.Lerp(transform.position, closePosition, closeRate);
+
+                if (Vector3.Distance(transform.position, closePosition) < 0.25f)
+                {
+                    transform.position = closePosition;
+                    isClose = true;
+                    isOpen = false;
+                    isCloseRequest = false;
+                }
             }
+            else
+                isCloseRequest = false;
         }
 
     }
