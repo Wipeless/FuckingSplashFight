@@ -1,64 +1,87 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class PlayerScript : MonoBehaviour {
+[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(CapsuleCollider))]
+public class PlayerScript : HumanBaseScript {
 
     //HUD variables
     public HUD_Gameplay HUD;
 
     //Gameplay variables
-    private bool _attack = false;   public bool Attack {  get { return _attack;  } }
-    private bool _inPuddle = false;
-    private float _health = 100;      public float Health { get { return _health; } }
-    public float DamageAmount = 25;   //amount of damage the player takes when hit
 
-    //Animation variables
-    private Vector3 m_Move;
-    const float k_Half = 0.5f;
+    //when the user first pushes the button to attack.
+    //use this variable to prepare things like camera movements and sounds for when the actual attack (force) happens
+    private bool attackInit = false; public bool AttackInit { get { return attackInit; } }
+    private float attackTimer;
+    private float attackTimerLimit = 0.5f;             
+    
+    //true when the actual attack is happening                                                                                                                        
+    private bool attackExecuted = false;   public bool AttackExecuted {  get { return attackExecuted;  } }
+
+    private bool inPuddle = false;
+    public float DamageAmount = 25;   //amount of damage the player takes when hit
     public float MoveRate = 10;
     public float ForcePower = 200;
 
+    //Animation player variables
+    private Vector3 m_Move;
+    const float k_Half = 0.5f;
+
     public Transform m_Cam;                  // A reference to the main camera in the scenes transform
     private Vector3 m_CamForward;             // The current forward direction of the camera
-
-    bool m_Damaged;
-    bool m_Dead;
-    bool m_Attacking;
-    float m_TurnAmount;
     Vector3 m_GroundNormal;
-    float m_ForwardAmount;
 
+
+    //audio variables
+    public AudioClip Clip_Attack1;
+    public AudioClip Clip_Attack2;
+    public AudioClip Clip_Hurt1;
+    public AudioClip Clip_Hurt2;
+    public AudioClip Clip_Death;
 
     [SerializeField] float m_MovingTurnSpeed = 360;
     [SerializeField] float m_StationaryTurnSpeed = 180;
     [SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
-
-
-    Animator m_Animator;
-    Rigidbody m_RigidBody;
-
     // Use this for initialization
     void Start () {
+
+        audio = GetComponent<AudioSource>();
 
         if (m_Cam == null)
             Debug.LogWarning("You forgot to set the camera for the Player!");
 
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody>();
-	}
+
+        m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+
+    }
 
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Enemy")
         {
             Debug.Log("enemy collision");
-            _health -= DamageAmount;
+            int rand = Random.Range(0, 1);
+            switch (rand)
+            {
+                case 0:
+                    audio.PlayOneShot(Clip_Hurt1, 1);
+                    break;
+                case 1:
+                    audio.PlayOneShot(Clip_Hurt2, 1);
+                    break;
+            }
+            health -= DamageAmount;
             m_Damaged = true;
 
-            if (_health < 0)
+            if (health < 0)
             {
-                _health = 0;
+                health = 0;
                 m_Dead = true;
+                audio.PlayOneShot(Clip_Death, 1);
+                CurrentHealthState = EnumHealthState.DEAD;
             }
         }
     }
@@ -79,56 +102,62 @@ public class PlayerScript : MonoBehaviour {
         if (collision.gameObject.tag == "Puddle")
         {
             Debug.Log("player is colliding with puddle");
-            _inPuddle = true;
+            inPuddle = true;
         }
     }
 
     void OnTriggerExit(Collider collision)
     {
-        _inPuddle = false;
+        inPuddle = false;
     }
 
     // Update is called once per frame
     void Update () {
 
-        _attack = false;
-        m_Attacking = false;
+        attackExecuted = false;
 
+        if (attackInit)
+        {
+            if (Time.time - attackTimer > attackTimerLimit)
+            {
+                attackInit = false;
+                m_Attacking = false;
+                attackExecuted = true;
+            }
+        }
+
+        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
+            CurrentHealthState == EnumHealthState.ALIVE)
+            HandleInput();
+    }
+
+    private void HandleInput()
+    {
         Vector3 inputForce = Vector3.zero;
-        
-	   /* if(Input.GetKey(KeyCode.W))
-        {
-            inputForce = new Vector3(0, 0, MoveRate);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            inputForce = new Vector3(-MoveRate, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            inputForce = new Vector3(0, 0, -MoveRate);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            inputForce = new Vector3(MoveRate, 0, 0);
-        }*/
-        
 
-        if (!_attack && _inPuddle)
+        if (!attackInit && inPuddle)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Attack!");
-                _attack = true;
+                attackInit = true;
                 m_Attacking = true;
+                attackTimer = Time.time;
+                int rand = Random.Range(0, 2);
+                switch (rand)
+                {
+                    case 0:
+                        audio.PlayOneShot(Clip_Attack1, 1);
+                        break;
+                    case 1:
+                        audio.PlayOneShot(Clip_Attack2, 1);
+                        break;
+                }
             }
         }
 
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
-
-        //Debug.Log("v: " + v + " h: " + h);
-        //inputForce = new Vector3(h * MoveRate, 0, v * MoveRate);
 
         // calculate move direction to pass to character
         if (m_Cam != null)
@@ -141,9 +170,8 @@ public class PlayerScript : MonoBehaviour {
 
             //Debug.Log("m move: " + m_Move);
 
-           inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
-           //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
-
+            inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+            //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
         }
         else
         {
@@ -153,8 +181,8 @@ public class PlayerScript : MonoBehaviour {
 
         GetComponent<Rigidbody>().AddForce(inputForce);
 
-
-        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+       // m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+        m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);
@@ -165,7 +193,6 @@ public class PlayerScript : MonoBehaviour {
         ApplyExtraTurnRotation();
 
         UpdateAnimator(m_Move);
-
     }
 
     void ApplyExtraTurnRotation()
@@ -190,7 +217,6 @@ public class PlayerScript : MonoBehaviour {
         float runCycle =
             Mathf.Repeat(
                 m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime + m_RunCycleLegOffset, 1);
-        float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
 
 
         // the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector,

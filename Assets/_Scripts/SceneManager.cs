@@ -7,11 +7,47 @@ public class SceneManager : MonoBehaviour {
 
     bool areAllEnemiesDead = true;
 
+    const int maxNumSFX_enemy = 2;
+    public static int numSFX_enemy = 0;  
+    public static bool doSFX_enemy = true;
+
+    public static float SFXTimer;
+    const float SFXTimerLimit = 2;
+
     void Update()
     {
         HandleQuit();
         HandlePlayer();
         HandleDoors();
+    }
+
+    public static bool IncrementSFX()
+    {
+        bool result;
+
+        if (!doSFX_enemy)
+        {
+            if (Time.time - SFXTimer > SFXTimerLimit)
+            {
+                doSFX_enemy = true;
+                numSFX_enemy = 0;
+            }
+            result = false;
+        }
+        else
+        {
+            numSFX_enemy++;
+
+            if (numSFX_enemy >= maxNumSFX_enemy)
+            {
+                SFXTimer = Time.time;
+                doSFX_enemy = false;
+                result = false;
+            }
+            else
+                result = true;
+        }
+        return result;
     }
 
     private void HandleQuit()
@@ -25,7 +61,7 @@ public class SceneManager : MonoBehaviour {
 
     private void HandlePlayer()
     {
-        if (Player.Attack)
+        if (Player.AttackExecuted)
         {
             //apply force to the entire scene of bad guys
 
@@ -36,7 +72,7 @@ public class SceneManager : MonoBehaviour {
                 e.GetComponent<EnemyScript>().ReceiveDamage(Player.ForcePower, Player.transform.position);
 
                 //check to see if all enemies are dead
-                if (e.GetComponent<EnemyScript>().CurrentEnemyState == EnemyScript.EnumEnemyState.ALIVE)
+                if (e.GetComponent<EnemyScript>().CurrentHealthState == HumanBaseScript.EnumHealthState.ALIVE)
                 {
                     areAllEnemiesDead = false;
                 }
@@ -44,10 +80,6 @@ public class SceneManager : MonoBehaviour {
 
             if (areAllEnemiesDead)
             {
-/* <<<<<<< HEAD
- =======
-                //Debug.Log("all dead");
->>>>>>> origin/master */
                 Door.OpenDoor();
             }
         }

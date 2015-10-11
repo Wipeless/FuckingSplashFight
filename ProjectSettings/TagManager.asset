@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Puddle
   - Enemy
+  - IntroSlide
+  - introSlide
+  - MusicRoom1
+  - MusicRoom2
+  - MusicRoom3
   layers:
   - Default
   - TransparentFX
