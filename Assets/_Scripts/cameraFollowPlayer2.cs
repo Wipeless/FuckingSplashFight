@@ -24,13 +24,15 @@ public class cameraFollowPlayer2 : MonoBehaviour {
             //transform.position = new Vector3(transform.position.x, transform.position.y, lookTarget.position.z);
 
             target.transform.LookAt(lookTarget);
+            target.transform.Rotate(-10, 0, 0);
             if (lookTarget.GetComponent<PlayerScript>().AttackInit)
             {
-                //Time.timeScale = 1f;
+                Time.timeScale = .3f;
                 target.GetComponent<Camera>().fieldOfView = Mathf.Lerp(target.GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
             }
             else
             {
+                Time.timeScale = 1f;
                 target.GetComponent<Camera>().fieldOfView = Mathf.Lerp(target.GetComponent<Camera>().fieldOfView, defaultFOV, Time.deltaTime * smoothness);
                 
             }
