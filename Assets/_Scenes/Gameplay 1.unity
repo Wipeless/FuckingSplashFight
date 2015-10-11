@@ -810,6 +810,18 @@ Prefab:
       value: 
       objectReference: {fileID: 24302058, guid: 9d63301856c8b2b4e9a55939c5fea781,
         type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: MusicTrigger3
+      value: 
+      objectReference: {fileID: 1939672411}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: MusicTrigger2
+      value: 
+      objectReference: {fileID: 1765440166}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: MusicTrigger1
+      value: 
+      objectReference: {fileID: 507659501}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
   m_IsPrefabParent: 0
@@ -943,6 +955,7 @@ GameObject:
   - 33: {fileID: 507659505}
   - 65: {fileID: 507659504}
   - 23: {fileID: 507659503}
+  - 114: {fileID: 507659506}
   m_Layer: 0
   m_Name: MusicRoom1Exit
   m_TagString: MusicRoom1
@@ -1005,6 +1018,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507659501}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &507659506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507659501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab409255862b3b74bb7cdf870106022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPointReached: 0
 --- !u!1 &539249239 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 112628, guid: 05b00e8fb50837448a546893955de320, type: 2}
@@ -1775,6 +1800,7 @@ GameObject:
   - 33: {fileID: 1039604442}
   - 65: {fileID: 1039604441}
   - 23: {fileID: 1039604440}
+  - 114: {fileID: 1039604443}
   m_Layer: 0
   m_Name: MusicRoom1Enter
   m_TagString: MusicRoom1
@@ -1837,6 +1863,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039604438}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1039604443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039604438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab409255862b3b74bb7cdf870106022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPointReached: 0
 --- !u!1 &1039928334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2572,7 @@ GameObject:
   - 33: {fileID: 1765440170}
   - 65: {fileID: 1765440169}
   - 23: {fileID: 1765440168}
+  - 114: {fileID: 1765440171}
   m_Layer: 0
   m_Name: MusicRoom2Exit
   m_TagString: MusicRoom2
@@ -2596,6 +2635,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1765440166}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1765440171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765440166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab409255862b3b74bb7cdf870106022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPointReached: 0
 --- !u!1 &1800811917 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 104988, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
@@ -2806,6 +2857,7 @@ GameObject:
   - 33: {fileID: 1939672414}
   - 65: {fileID: 1939672413}
   - 23: {fileID: 1939672412}
+  - 114: {fileID: 1939672416}
   m_Layer: 0
   m_Name: MusicRoom3
   m_TagString: MusicRoom3
@@ -2868,6 +2920,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1333815844}
   m_RootOrder: 0
+--- !u!114 &1939672416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939672411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab409255862b3b74bb7cdf870106022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPointReached: 0
 --- !u!1001 &1969069741
 Prefab:
   m_ObjectHideFlags: 0
@@ -3117,6 +3181,7 @@ GameObject:
   - 33: {fileID: 2027929816}
   - 65: {fileID: 2027929815}
   - 23: {fileID: 2027929814}
+  - 114: {fileID: 2027929817}
   m_Layer: 0
   m_Name: MusicRoom2Enter
   m_TagString: MusicRoom2
@@ -3179,6 +3244,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027929812}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2027929817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027929812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab409255862b3b74bb7cdf870106022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPointReached: 0
 --- !u!1001 &2107394672
 Prefab:
   m_ObjectHideFlags: 0

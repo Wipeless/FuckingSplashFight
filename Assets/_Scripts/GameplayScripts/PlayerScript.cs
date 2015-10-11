@@ -14,8 +14,12 @@ public class PlayerScript : HumanBaseScript {
     //use this variable to prepare things like camera movements and sounds for when the actual attack (force) happens
     private bool attackInit = false; public bool AttackInit { get { return attackInit; } }
     private float attackTimer;
-    private float attackTimerLimit = 0.5f;             
-    
+    private float attackTimerLimit = 0.5f;
+
+    private bool isAttacked = false;
+    private float isAttackedTimer;      //timer used to give multiple damage to player if still being in contact with enemy
+    private const float isAttackedTimerLimit = 1f;
+
     //true when the actual attack is happening                                                                                                                        
     private bool attackExecuted = false;   public bool AttackExecuted {  get { return attackExecuted;  } }
 
@@ -58,30 +62,52 @@ public class PlayerScript : HumanBaseScript {
 
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionStay(Collision collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if(CurrentHealthState == EnumHealthState.ALIVE)
         {
-            Debug.Log("enemy collision");
-            int rand = Random.Range(0, 1);
-            switch (rand)
+            if (collision.gameObject.tag == "Enemy")
             {
-                case 0:
-                    audio.PlayOneShot(Clip_Hurt1, 1);
-                    break;
-                case 1:
-                    audio.PlayOneShot(Clip_Hurt2, 1);
-                    break;
-            }
-            health -= DamageAmount;
-            m_Damaged = true;
 
-            if (health < 0)
-            {
-                health = 0;
-                m_Dead = true;
-                audio.PlayOneShot(Clip_Death, 1);
-                CurrentHealthState = EnumHealthState.DEAD;
+                if (!isAttacked)
+                {
+                    //Debug.Log("enemy collision");
+
+                    isAttacked = true;
+                    isAttackedTimer = Time.time;
+
+                    int rand = Random.Range(0, 1);
+                    switch (rand)
+                    {
+                        case 0:
+                            audio.PlayOneShot(Clip_Hurt1, 1);
+                            break;
+                        case 1:
+                            audio.PlayOneShot(Clip_Hurt2, 1);
+                            break;
+                    }
+                    health -= DamageAmount;
+                    m_Damaged = true;
+
+                    if (health < 0)
+                    {
+                        health = 0;
+                        m_Damaged = false;
+                        m_Dead = true;
+                        audio.PlayOneShot(Clip_Death, 1);
+                        m_RigidBody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+                        CurrentHealthState = EnumHealthState.DEAD;
+                    }
+                }
+                else
+                {
+                    if (Time.time - isAttackedTimer > isAttackedTimerLimit)
+                    {
+                        //be no longer attacked so you can be open for more damage
+                        isAttacked = false;
+                        m_Damaged = false;
+                    }
+                }
             }
         }
     }
@@ -101,7 +127,7 @@ public class PlayerScript : HumanBaseScript {
         //create splash
         if (collision.gameObject.tag == "Puddle")
         {
-            Debug.Log("player is colliding with puddle");
+            //Debug.Log("player is colliding with puddle");
             inPuddle = true;
         }
     }
@@ -126,63 +152,67 @@ public class PlayerScript : HumanBaseScript {
             }
         }
 
-        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
-            CurrentHealthState == EnumHealthState.ALIVE)
+        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED)
             HandleInput();
     }
 
     private void HandleInput()
     {
-        Vector3 inputForce = Vector3.zero;
-
-        if (!attackInit && inPuddle)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Debug.Log("Attack!");
-                attackInit = true;
-                m_Attacking = true;
-                attackTimer = Time.time;
-                int rand = Random.Range(0, 2);
-                switch (rand)
-                {
-                    case 0:
-                        audio.PlayOneShot(Clip_Attack1, 1);
-                        break;
-                    case 1:
-                        audio.PlayOneShot(Clip_Attack2, 1);
-                        break;
-                }
-            }
-        }
-
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
         float v = CrossPlatformInputManager.GetAxis("Vertical");
 
-        // calculate move direction to pass to character
-        if (m_Cam != null)
+        if (CurrentHealthState == EnumHealthState.ALIVE)
         {
-            // calculate camera relative direction to move:
-            m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+            Vector3 inputForce = Vector3.zero;
 
-            //Debug.Log("cam forward: " + m_CamForward);
-            m_Move = v * m_CamForward + h * m_Cam.right;
+            if (!attackInit && inPuddle)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Debug.Log("Attack!");
+                    attackInit = true;
+                    m_Attacking = true;
+                    attackTimer = Time.time;
+                    int rand = Random.Range(0, 2);
+                    switch (rand)
+                    {
+                        case 0:
+                            audio.PlayOneShot(Clip_Attack1, 1);
+                            break;
+                        case 1:
+                            audio.PlayOneShot(Clip_Attack2, 1);
+                            break;
+                    }
+                }
+            }
 
-            //Debug.Log("m move: " + m_Move);
+            // calculate move direction to pass to character
+            if (m_Cam != null)
+            {
+                // calculate camera relative direction to move:
+                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
 
-            inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
-            //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+                //Debug.Log("cam forward: " + m_CamForward);
+                m_Move = v * m_CamForward + h * m_Cam.right;
+
+                //Debug.Log("m move: " + m_Move);
+
+                inputForce = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+                //m_Move = (v * m_CamForward + h * m_Cam.right) * MoveRate;
+            }
+            else
+            {
+                // we use world-relative directions in the case of no main camera
+                m_Move = (h * Vector3.forward) + (v * Vector3.right);
+            }
+
+            GetComponent<Rigidbody>().AddForce(inputForce);
         }
         else
-        {
-            // we use world-relative directions in the case of no main camera
-            m_Move = (h * Vector3.forward) + (v * Vector3.right);
-        }
+            m_Dead = true;
 
-        GetComponent<Rigidbody>().AddForce(inputForce);
-
-       // m_Move = (-h * Vector3.forward) + (v * Vector3.right);
-        m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
+        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+       // m_Move = (h * Vector3.forward) + (-v * Vector3.right);      //this works for the gameplay scene
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);

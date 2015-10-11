@@ -11,6 +11,7 @@ public class EnemyScript : HumanBaseScript
     {
         NEUTRAL = 0,
         AGGRESS,
+        ROAM,
     }
 
     public EnumEnemyStates CurrentEnemyState = EnumEnemyStates.NEUTRAL;
@@ -29,6 +30,11 @@ public class EnemyScript : HumanBaseScript
     private const float deathTimeLimitMin = 2;
     private const float deathTimeLimitMax = 4;
 
+    private const float roamRate = 0.01f;
+    private const float roamRangeMin = 0.5f;
+    private const float roamRangeMax = 1f;
+    private Vector3 roamPosition = Vector3.zero;
+
     //audio variables
     public AudioClip Clip_Attack1;
     public AudioClip Clip_Attack2;
@@ -40,6 +46,10 @@ public class EnemyScript : HumanBaseScript
     public AudioClip Clip_Aggress1;
     public AudioClip Clip_Aggress2;
     public AudioClip Clip_Aggress3;
+
+    private bool isAttacking = false;
+    private float isAttackingTimer;  //time used to give multiple damage to player if collision still true
+    private const float isAttackingTimeLimit = 0.8f;
 
     [SerializeField]
     float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
@@ -65,13 +75,24 @@ public class EnemyScript : HumanBaseScript
 
         deathTimeLimit = Random.Range(deathTimeLimitMin, deathTimeLimitMax);
 
+
+        roamPosition = new Vector3(Random.RandomRange(-roamRangeMin, roamRangeMax), 0, Random.Range(-roamRangeMin, roamRangeMax)) + transform.position;
+
+        int rand = Random.Range(0, 2);
+
+        if (rand == 0)
+            CurrentEnemyState = EnumEnemyStates.NEUTRAL;
+        else
+            CurrentEnemyState = EnumEnemyStates.ROAM;
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
         if (CurrentHealthState == EnumHealthState.ALIVE)
-            HandleAggressionBehavior();
+            HandleEnemyBehavior();
         else
         {
             if (Time.time - deathTimer > deathTimeLimit)
@@ -81,73 +102,126 @@ public class EnemyScript : HumanBaseScript
         UpdateEnemyAnimator();
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if(!SceneManager.IsPlayerDead)
         {
-            //attack player
-            int rand = Random.Range(0, 4);
-            switch (rand)
+            if (collision.gameObject.tag == "Player")
             {
-                case 0:
-                    if (SceneManager.IncrementSFX())
-                        audio.PlayOneShot(Clip_Attack1, 1);
-                    break;
-                case 1:
-                    if (SceneManager.IncrementSFX())
-                        audio.PlayOneShot(Clip_Attack2, 1);
-                    break;
-                case 2:
-                    if (SceneManager.IncrementSFX())
-                        audio.PlayOneShot(Clip_Attack3, 1);
-                    break;
-                default:
-                    //no audio
-                    break;
-
-            }
-        }
-    }
-
-    void HandleAggressionBehavior()
-    {
-        switch (CurrentEnemyState)
-        {
-            case EnumEnemyStates.NEUTRAL:
-                if (Time.time - aggressionTimer > aggressionTimerLimit)
+                if (!isAttacking)
                 {
-                    //aggress player
-                    CurrentEnemyState = EnumEnemyStates.AGGRESS;
+                    isAttacking = true;
+                    isAttackingTimer = Time.time;
 
+                    //attack player
                     int rand = Random.Range(0, 4);
                     switch (rand)
                     {
                         case 0:
                             if (SceneManager.IncrementSFX())
-                                audio.PlayOneShot(Clip_Aggress1, 1);
+                                audio.PlayOneShot(Clip_Attack1, 1);
                             break;
                         case 1:
                             if (SceneManager.IncrementSFX())
-                                audio.PlayOneShot(Clip_Aggress2, 1);
+                                audio.PlayOneShot(Clip_Attack2, 1);
                             break;
                         case 2:
                             if (SceneManager.IncrementSFX())
-                                audio.PlayOneShot(Clip_Aggress3, 1);
+                                audio.PlayOneShot(Clip_Attack3, 1);
                             break;
                         default:
                             //no audio
                             break;
                     }
                 }
+                else
+                {
+                    if (Time.time - isAttackingTimer > isAttackingTimeLimit)
+                    {
+                        //be no longer attacked so you can be open for more sfx
+                        isAttacking = false;
+                    }
+                }
+            }
+        }
+    }
+
+    void HandleEnemyBehavior()
+    {
+        switch (CurrentEnemyState)
+        {
+            case EnumEnemyStates.NEUTRAL:
+                if (!SceneManager.IsPlayerDead)
+                    InitializeAggress();
                 break;
             case EnumEnemyStates.AGGRESS:
                 transform.LookAt(AggressTarget);
-                transform.Rotate(Vector3.up, 90f);
+                //transform.Rotate(Vector3.up, 90f);  //an extra offset for enemies not facing the right direction
                 transform.position = Vector3.MoveTowards(transform.position, AggressTarget.position, pursueRate);
+                break;
+            case EnumEnemyStates.ROAM:
+                transform.LookAt(roamPosition);
+                transform.position = Vector3.MoveTowards(transform.position, roamPosition, roamRate);
+
+                if (!SceneManager.IsPlayerDead)
+                {
+                    //pursue player
+                    InitializeAggress();
+                }
+                else
+                {
+                    //Debug.Log("player dead, roam");
+                }
+
+                if (Vector3.Distance(transform.position, roamPosition) < 0.2f)
+                {
+                    transform.position = roamPosition;
+
+                    //make a new waypoint
+                    roamPosition = new Vector3(Random.RandomRange(-roamRangeMin, roamRangeMax), 0, Random.Range(-roamRangeMin, roamRangeMax)) + transform.position;
+
+                    transform.LookAt(roamPosition);
+
+                    int rand = Random.Range(0, 2);
+
+                    if (rand == 0)
+                        CurrentEnemyState = EnumEnemyStates.NEUTRAL;
+                    else
+                        CurrentEnemyState = EnumEnemyStates.ROAM;
+                }
+
                 break;
         }
     }
 
+    private void InitializeAggress()
+    {
+        if (Time.time - aggressionTimer > aggressionTimerLimit)
+        {
+            //aggress player
+            CurrentEnemyState = EnumEnemyStates.AGGRESS;
+
+            int rand = Random.Range(0, 4);
+            switch (rand)
+            {
+                case 0:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Aggress1, 1);
+                    break;
+                case 1:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Aggress2, 1);
+                    break;
+                case 2:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Aggress3, 1);
+                    break;
+                default:
+                    //no audio
+                    break;
+            }
+        }
+    }
 
     public void ReceiveDamage(float damageValue, Vector3 orginPosition)
     {

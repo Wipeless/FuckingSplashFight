@@ -11,9 +11,10 @@ public class PuddleScript : MonoBehaviour {
     void OnTriggerEnter(Collider collision)
     {
         // splash something?
-        if(collision.gameObject.tag == "Player")
-            Debug.Log("puddle collision with player!");
-
+        if (collision.gameObject.tag == "Player")
+        {
+         //   Debug.Log("puddle collision with player!");
+        }
     }
 
     // Update is called once per frame
