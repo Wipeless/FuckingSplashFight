@@ -25,7 +25,7 @@ public class SceneManager : MonoBehaviour {
 
     private void HandlePlayer()
     {
-        if (Player.Attack)
+        if (Player.AttackExecuted)
         {
             //apply force to the entire scene of bad guys
 
@@ -36,7 +36,7 @@ public class SceneManager : MonoBehaviour {
                 e.GetComponent<EnemyScript>().ReceiveDamage(Player.ForcePower, Player.transform.position);
 
                 //check to see if all enemies are dead
-                if (e.GetComponent<EnemyScript>().CurrentEnemyState == EnemyScript.EnumEnemyState.ALIVE)
+                if (e.GetComponent<EnemyScript>().CurrentHealthState == HumanBaseScript.EnumHealthState.ALIVE)
                 {
                     areAllEnemiesDead = false;
                 }
@@ -44,10 +44,6 @@ public class SceneManager : MonoBehaviour {
 
             if (areAllEnemiesDead)
             {
-/* <<<<<<< HEAD
- =======
-                //Debug.Log("all dead");
->>>>>>> origin/master */
                 Door.OpenDoor();
             }
         }
