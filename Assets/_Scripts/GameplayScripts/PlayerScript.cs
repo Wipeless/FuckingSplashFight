@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CapsuleCollider))]
+[RequireComponent(typeof(Animator))]
 public class PlayerScript : MonoBehaviour {
 
     //HUD variables
@@ -45,7 +48,9 @@ public class PlayerScript : MonoBehaviour {
 
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody>();
-	}
+
+        m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+    }
 
     void OnCollisionEnter(Collision collision)
     {
@@ -154,7 +159,7 @@ public class PlayerScript : MonoBehaviour {
         GetComponent<Rigidbody>().AddForce(inputForce);
 
 
-        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
+        m_Move = (h * Vector3.forward) + (-v * Vector3.right);
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CapsuleCollider))]
+[RequireComponent(typeof(Animator))]
 public class EnemyScript : MonoBehaviour {
 
     public enum EnumEnemyState
@@ -12,13 +15,20 @@ public class EnemyScript : MonoBehaviour {
 
     private float _health = 100;  public float Health { get { return _health; } }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    Animator m_Animator;
+    Rigidbody m_RigidBody;
+
+    // Use this for initialization
+    void Start () {
+
+        m_Animator = GetComponent<Animator>();
+        m_RigidBody = GetComponent<Rigidbody>();
+
+        m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+    }
+
+    // Update is called once per frame
+    void Update () {
 	
 	}
 
@@ -32,6 +42,8 @@ public class EnemyScript : MonoBehaviour {
         {
             _health = 0;
             CurrentEnemyState = EnumEnemyState.DEAD;
+            m_RigidBody.constraints = RigidbodyConstraints.None;
+
             GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * damageValue, orginPosition);
             tag = "Untagged";
         }
