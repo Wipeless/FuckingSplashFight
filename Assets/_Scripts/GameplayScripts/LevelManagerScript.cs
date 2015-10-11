@@ -15,18 +15,14 @@ public class LevelManagerScript : MonoBehaviour {
 
     private float successTimer;                     //starts once all the levels have been cleared. upon completion, go to game over won scene
     private const float successTimerLimit = 3;
+    
+    public GameObject Level1_Entities;
+    public GameObject Level2_Entities;
+    public GameObject Level3_Entities;
 
-    //level 1 entities
-    public GameObject Level1_Puddle;
-    public GameObject Level1_Enemy1;
-
-    //level 2 entities
-    public GameObject Level2_Puddle;
-    public GameObject Level2_Enemy1;
-
-    //level 3 entities
-    public GameObject Level3_Puddle;
-    public GameObject Level3_Enemy1;
+    public GameObject Level1_Props;
+    public GameObject Level2_Props;
+    public GameObject Level3_Props;
 
     public GameObject Player;
     public GameObject Camera;
@@ -135,8 +131,10 @@ public class LevelManagerScript : MonoBehaviour {
 
     private void LoadLevel1()
     {
-        Level1_Enemy1.SetActive(true);
-        Level1_Puddle.SetActive(true);
+        Level1_Entities.SetActive(true);
+
+        if (Level1_Props != null)
+            Level1_Props.SetActive(true);
 
         if (Room1 != null)
             Room1.SetActive(true);
@@ -165,17 +163,22 @@ public class LevelManagerScript : MonoBehaviour {
             Hallway3.SetActive(false);
 
         //speical case: hide all entities except for the current first level
-        Level2_Enemy1.SetActive(false);
-        Level2_Puddle.SetActive(false);
 
-        Level3_Enemy1.SetActive(false);
-        Level3_Puddle.SetActive(false);
+        Level2_Entities.SetActive(false);
+        if (Level2_Props != null)
+            Level2_Props.SetActive(false);
+
+        Level3_Entities.SetActive(false);
+        if (Level3_Props != null)
+            Level3_Props.SetActive(false);
     }
 
     private void LoadLevel2()
     {
-        Level2_Enemy1.SetActive(true);
-        Level2_Puddle.SetActive(true);
+        Level2_Entities.SetActive(true);
+
+        if (Level2_Props != null)
+            Level2_Props.SetActive(true);
 
         if (Room2 != null)
             Room2.SetActive(true);
@@ -187,6 +190,10 @@ public class LevelManagerScript : MonoBehaviour {
             Hallway2.SetActive(true);
         if (Hallway1 != null)
             Hallway1.SetActive(true);
+
+        if (Level1_Props != null)
+            Level1_Props.SetActive(false);
+        Level1_Entities.SetActive(false);
 
         if (Room1 != null)
             Room1.SetActive(false);
@@ -211,8 +218,10 @@ public class LevelManagerScript : MonoBehaviour {
 
     private void LoadLevel3()
     {
-        Level3_Enemy1.SetActive(true);
-        Level3_Puddle.SetActive(true);
+        Level3_Entities.SetActive(true);
+
+        if (Level3_Props != null)
+            Level3_Props.SetActive(true);
 
         if (Room3 != null)
             Room3.SetActive(true);
@@ -230,6 +239,9 @@ public class LevelManagerScript : MonoBehaviour {
         if (Room2 != null)
             Room2.SetActive(false);
 
+        Level2_Entities.SetActive(false);
+        if (Level2_Props != null)
+            Level2_Props.SetActive(false);
         if (Door1_2_exit != null)
             Door1_2_exit.SetActive(false);
         if (Door2_3_entry != null)
