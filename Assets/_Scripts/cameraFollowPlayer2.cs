@@ -26,11 +26,12 @@ public class cameraFollowPlayer2 : MonoBehaviour {
 
             if (LookTarget.GetComponent<PlayerScript>().AttackInit)
             {
-                //Time.timeScale = 1f;
+                Time.timeScale = .3f;
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
             }
             else
             {
+                Time.timeScale = 1f;
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, defaultFOV, Time.deltaTime * smoothness);
                 
             }
