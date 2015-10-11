@@ -3,9 +3,10 @@ using System.Collections;
 
 public class DoorScript : MonoBehaviour {
 
-    Vector3 startPosition;
-    Vector3 endPosition;
-    Vector3 endPositionOffset = new Vector3(0, 5, 0);
+    Vector3 closePosition;
+    Vector3 openPosition;
+
+    Vector3 openPositionOffset = new Vector3(0, 5, 0);
 
     float openRate = 0.5f;
 
@@ -19,8 +20,8 @@ public class DoorScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        startPosition = transform.position;
-        endPosition = transform.position + endPositionOffset;
+        closePosition = transform.position;
+        openPosition = transform.position + openPositionOffset;
 	}
 	
 	// Update is called once per frame
@@ -28,21 +29,21 @@ public class DoorScript : MonoBehaviour {
 
         if (isOpenRequest && !isOpen)
         {
-            transform.position = Vector3.Lerp(transform.position, endPosition, openRate);
+            transform.position = Vector3.Lerp(transform.position, openPosition, openRate);
 
-            if (Vector3.Distance(transform.position, endPosition) < 0.5f)
+            if (Vector3.Distance(transform.position, openPosition) < 0.5f)
             {
-                transform.position = endPosition;
+                transform.position = openPosition;
                 isOpen = true;
             }
         }
         else if (isCloseRequest && !isClose)
         {
-            transform.position = Vector3.Lerp(transform.position, endPosition, closeRate);
+            transform.position = Vector3.Lerp(transform.position, closePosition, closeRate);
 
-            if (Vector3.Distance(transform.position, endPosition) < 0.5f)
+            if (Vector3.Distance(transform.position, closePosition) < 0.5f)
             {
-                transform.position = endPosition;
+                transform.position = closePosition;
                 isClose = true;
             }
         }
