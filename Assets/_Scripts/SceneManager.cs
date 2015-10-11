@@ -6,13 +6,16 @@ public class SceneManager : MonoBehaviour {
     public DoorScript Door;
 
     bool areAllEnemiesDead = true;
+    static bool playerDead = false;
 
-    const int maxNumSFX_enemy = 2;
+    public static bool IsPlayerDead { get { return playerDead; } }
+
+    const int maxNumSFX_enemy = 10;
     public static int numSFX_enemy = 0;  
     public static bool doSFX_enemy = true;
 
     public static float SFXTimer;
-    const float SFXTimerLimit = 2;
+    const float SFXTimerLimit = 1;
 
     void Update()
     {
@@ -73,7 +76,6 @@ public class SceneManager : MonoBehaviour {
             {
                 areAllEnemiesDead = false;
             }
-            Debug.Log("remaining Enemies: " + remainingEnemies.Length);
 
             foreach (GameObject e in enemiesHit)
             {
@@ -83,6 +85,18 @@ public class SceneManager : MonoBehaviour {
             if (areAllEnemiesDead)
             {
                 Door.OpenDoor();
+            }
+        }
+
+        if (Player.CurrentHealthState == HumanBaseScript.EnumHealthState.DEAD)
+        {
+            if (!playerDead)
+            {
+                playerDead = true;
+
+                GameObject[] remainingEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
+                foreach (GameObject o in remainingEnemies)
+                    o.GetComponent<EnemyScript>().CurrentEnemyState = EnemyScript.EnumEnemyStates.ROAM;
             }
         }
     }

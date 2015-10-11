@@ -71,7 +71,7 @@ public class PlayerScript : HumanBaseScript {
 
                 if (!isAttacked)
                 {
-                    Debug.Log("enemy collision");
+                    //Debug.Log("enemy collision");
 
                     isAttacked = true;
                     isAttackedTimer = Time.time;
@@ -127,7 +127,7 @@ public class PlayerScript : HumanBaseScript {
         //create splash
         if (collision.gameObject.tag == "Puddle")
         {
-            Debug.Log("player is colliding with puddle");
+            //Debug.Log("player is colliding with puddle");
             inPuddle = true;
         }
     }
