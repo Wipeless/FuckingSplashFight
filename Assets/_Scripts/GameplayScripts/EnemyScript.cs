@@ -16,7 +16,7 @@ public class EnemyScript : HumanBaseScript {
     private float aggressionTimerLimit;
     private const float aggressionTimerLimitMin = 1f;
     private const float aggressionTimerLimitMax = 2f;
-    private const float persueRate = 0.01f;
+    private const float pursueRate = 0.05f;
 
     // Use this for initialization
     void Start () {
@@ -42,13 +42,14 @@ public class EnemyScript : HumanBaseScript {
             case EnumEnemyStates.NEUTRAL:
                 if (Time.time - aggressionTimer > aggressionTimerLimit)
                 {
+                    //aggress player
                     CurrentEnemyState = EnumEnemyStates.AGGRESS;
-                    Debug.Log("I'm pissed");
-
                 }
                 break;
             case EnumEnemyStates.AGGRESS:
-                transform.position = Vector3.Lerp(transform.position, AggressTarget.position, persueRate);
+                transform.LookAt(AggressTarget);
+                transform.Rotate(Vector3.up, 90f);
+                transform.position = Vector3.MoveTowards(transform.position, AggressTarget.position, pursueRate);
                 break;
         }
     }

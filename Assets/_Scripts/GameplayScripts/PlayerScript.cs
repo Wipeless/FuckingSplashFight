@@ -95,7 +95,7 @@ public class PlayerScript : HumanBaseScript {
         _attack = false;
         m_Attacking = false;
 
-        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED ||
+        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
             CurrentHealthState == EnumHealthState.ALIVE)
             HandleInput();
     }
