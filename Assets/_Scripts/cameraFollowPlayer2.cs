@@ -22,8 +22,8 @@ public class cameraFollowPlayer2 : MonoBehaviour {
             //hard coding! watch out!
             //transform.position = new Vector3(transform.position.x, transform.position.y, lookTarget.position.z);
 
-<<<<<<< HEAD
             transform.LookAt(LookTarget);
+
             if (LookTarget.GetComponent<PlayerScript>().AttackInit)
             {
                 //Time.timeScale = 1f;
@@ -32,19 +32,6 @@ public class cameraFollowPlayer2 : MonoBehaviour {
             else
             {
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, defaultFOV, Time.deltaTime * smoothness);
-=======
-            target.transform.LookAt(lookTarget);
-            target.transform.Rotate(-10, 0, 0);
-            if (lookTarget.GetComponent<PlayerScript>().AttackInit)
-            {
-                Time.timeScale = .3f;
-                target.GetComponent<Camera>().fieldOfView = Mathf.Lerp(target.GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
-            }
-            else
-            {
-                Time.timeScale = 1f;
-                target.GetComponent<Camera>().fieldOfView = Mathf.Lerp(target.GetComponent<Camera>().fieldOfView, defaultFOV, Time.deltaTime * smoothness);
->>>>>>> origin/master
                 
             }
         }
