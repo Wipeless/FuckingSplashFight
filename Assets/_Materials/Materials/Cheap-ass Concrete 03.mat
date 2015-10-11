@@ -10,7 +10,7 @@ Material:
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _DETAIL_MULX2 _NORMALMAP
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -20,8 +20,8 @@ Material:
           name: _MainTex
         second:
           m_Texture: {fileID: 2800000, guid: 6c14007b90990494eab7d1c60eec990a, type: 3}
-          m_Scale: {x: 1, y: 7}
-          m_Offset: {x: .0500000007, y: 0}
+          m_Scale: {x: 2.69000006, y: 3.8599999}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
@@ -55,8 +55,8 @@ Material:
           name: _EmissionMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 7}
-          m_Offset: {x: .0500000007, y: 0}
+          m_Scale: {x: 2.69000006, y: 3.8599999}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailMask
@@ -69,7 +69,7 @@ Material:
           name: _DetailAlbedoMap
         second:
           m_Texture: {fileID: 2800000, guid: f180d646f4917bf46b50e6c5a5cc6156, type: 3}
-          m_Scale: {x: 1, y: 10}
+          m_Scale: {x: 3.88000011, y: 5.82000017}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -109,11 +109,11 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .238999993
+        second: .145999998
       data:
         first:
           name: _BumpScale
-        second: .449999988
+        second: .460000008
       data:
         first:
           name: _OcclusionStrength
