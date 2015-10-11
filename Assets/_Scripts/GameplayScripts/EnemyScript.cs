@@ -78,17 +78,23 @@ public class EnemyScript : HumanBaseScript {
         if (collision.gameObject.tag == "Player")
         {
             //attack player
-            int rand = Random.Range(0, 2);
+            int rand = Random.Range(0, 4);
             switch (rand)
             {
                 case 0:
-                    audio.PlayOneShot(Clip_Attack1, 1);
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Attack1, 1);
                     break;
                 case 1:
-                    audio.PlayOneShot(Clip_Attack2, 1);
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Attack2, 1);
                     break;
                 case 2:
-                    audio.PlayOneShot(Clip_Attack3, 1);
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Attack3, 1);
+                    break;
+                default:
+                    //no audio
                     break;
 
             }
@@ -104,17 +110,24 @@ public class EnemyScript : HumanBaseScript {
                 {
                     //aggress player
                     CurrentEnemyState = EnumEnemyStates.AGGRESS;
-                    int rand = Random.Range(0, 2);
+
+                    int rand = Random.Range(0, 4);
                     switch (rand)
                     {
                         case 0:
-                            audio.PlayOneShot(Clip_Aggress1, 1);
+                            if (SceneManager.IncrementSFX())
+                                audio.PlayOneShot(Clip_Aggress1, 1);
                             break;
                         case 1:
-                            audio.PlayOneShot(Clip_Aggress2, 1);
+                            if (SceneManager.IncrementSFX())
+                                audio.PlayOneShot(Clip_Aggress2, 1);
                             break;
                         case 2:
-                            audio.PlayOneShot(Clip_Aggress3, 1);
+                            if (SceneManager.IncrementSFX())
+                                audio.PlayOneShot(Clip_Aggress3, 1);
+                            break;
+                        default:
+                            //no audio
                             break;
                     }
                 }
@@ -141,17 +154,23 @@ public class EnemyScript : HumanBaseScript {
             m_RigidBody.constraints = RigidbodyConstraints.None;
             m_Dead = true;
             deathTimer = Time.time;
-            int rand = Random.Range(0, 3);
+            int rand = Random.Range(0, 4);
             switch (rand)
             {
                 case 0:
-                    audio.PlayOneShot(Clip_Death1, 1);
+                    if(SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Death1, 1);
                     break;
                 case 1:
-                    audio.PlayOneShot(Clip_Death2, 1);
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Death2, 1);
                     break;
                 case 2:
-                    audio.PlayOneShot(Clip_Death3, 1);
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Death3, 1);
+                    break;
+                default:
+                    //no audio
                     break;
             }
             GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * damageValue, orginPosition);
