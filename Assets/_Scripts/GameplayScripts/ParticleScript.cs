@@ -17,7 +17,7 @@ public class ParticleScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (player.GetComponent<PlayerScript>().Attack)
+        if (player.GetComponent<PlayerScript>().AttackInit)
         {
             GameObject tempParticle = new GameObject();
             tempParticle.transform.rotation = new Quaternion(player.transform.rotation.x, player.transform.rotation.y, player.transform.rotation.z, player.transform.rotation.w);
