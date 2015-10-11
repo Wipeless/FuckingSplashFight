@@ -12,8 +12,13 @@ public class DoorScript : MonoBehaviour {
     private bool isOpenRequest = false;
     private bool isOpen = false;
 
-	// Use this for initialization
-	void Start () {
+    float closeRate = 0.5f;
+
+    private bool isCloseRequest = false;
+    private bool isClose = false;
+
+    // Use this for initialization
+    void Start () {
         startPosition = transform.position;
         endPosition = transform.position + endPositionOffset;
 	}
@@ -31,14 +36,28 @@ public class DoorScript : MonoBehaviour {
                 isOpen = true;
             }
         }
-	}
+        else if (isCloseRequest && !isClose)
+        {
+            transform.position = Vector3.Lerp(transform.position, endPosition, closeRate);
+
+            if (Vector3.Distance(transform.position, endPosition) < 0.5f)
+            {
+                transform.position = endPosition;
+                isClose = true;
+            }
+        }
+
+    }
 
     public void OpenDoor()
     {
         if (!isOpenRequest)
-        {
-
             isOpenRequest = true;
-        }
+    }
+
+    public void CloseDoor()
+    {
+        if (!isCloseRequest)
+            isCloseRequest = true;
     }
 }

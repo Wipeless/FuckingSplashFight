@@ -3,9 +3,15 @@
 public class SceneManager : MonoBehaviour {
 
     public PlayerScript Player;
-    public DoorScript Door;
+    public DoorScript Door1_Entry;
+    public DoorScript Door1_Exit;
+    public DoorScript Door2_Entry;
+    public DoorScript Door2_Exit;
+    public DoorScript Door3_Entry;
+    public DoorScript Door3_Exit;
 
-    bool areAllEnemiesDead = true;
+    bool startNewLevel = false;
+    bool areAllEnemiesDead = false;
     static bool playerDead = false;
 
     public static bool IsPlayerDead { get { return playerDead; } }
@@ -16,6 +22,11 @@ public class SceneManager : MonoBehaviour {
 
     public static float SFXTimer;
     const float SFXTimerLimit = 1;
+
+    void Start()
+    {
+        startNewLevel = true;
+    }
 
     void Update()
     {
@@ -73,19 +84,11 @@ public class SceneManager : MonoBehaviour {
             GameObject[] remainingEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
             //check to see if all enemies are dead
             if (remainingEnemies.Length > 0)
-            {
                 areAllEnemiesDead = false;
-            }
 
             foreach (GameObject e in enemiesHit)
-            {
                 e.GetComponent<EnemyScript>().ReceiveDamage(Player.ForcePower, Player.transform.position);
-            }
 
-            if (areAllEnemiesDead)
-            {
-                Door.OpenDoor();
-            }
         }
 
         if (Player.CurrentHealthState == HumanBaseScript.EnumHealthState.DEAD)
@@ -105,7 +108,30 @@ public class SceneManager : MonoBehaviour {
     {
         if (areAllEnemiesDead)
         {
-            //open the scene door
+            //open the exit scene doors
+            if (Door1_Exit != null)
+                Door1_Exit.OpenDoor();
+            if (Door2_Exit != null)
+                Door2_Exit.OpenDoor();
+            if (Door3_Exit != null)
+                Door3_Exit.OpenDoor();
+        }
+        else if (startNewLevel)
+        {
+            //close all doors
+            if (Door1_Exit != null)
+                Door1_Exit.CloseDoor();
+            if (Door2_Exit != null)
+                Door2_Exit.CloseDoor();
+            if (Door3_Exit != null)
+                Door3_Exit.CloseDoor();
+
+            if (Door1_Entry != null)
+                Door1_Entry.CloseDoor();
+            if (Door2_Entry != null)
+                Door2_Entry.CloseDoor();
+            if (Door3_Entry != null)
+                Door3_Entry.CloseDoor();
         }
     }
 
