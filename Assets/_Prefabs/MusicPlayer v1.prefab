@@ -527,17 +527,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73025fd0337afa4489677900bc032a49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Default: {fileID: 24520302, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Damaged: {fileID: 24500003, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  BassSolo: {fileID: 24580536, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  ArpSolo: {fileID: 24575548, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room1: {fileID: 24503216, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room1Combat: {fileID: 24595302, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room1Damaged: {fileID: 24553026, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room2: {fileID: 24534310, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room2Damaged: {fileID: 24554812, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room3: {fileID: 24561144, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
-  Room3Damaged: {fileID: 24570762, guid: f630bd24c435bde41ae3d53b8ebeb1a6, type: 2}
+  Default: {fileID: 24520302, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Damaged: {fileID: 24500003, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  BassSolo: {fileID: 24580536, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  ArpSolo: {fileID: 24575548, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room1: {fileID: 24503216, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room1Combat: {fileID: 24595302, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room1Damaged: {fileID: 24553026, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room2: {fileID: 24534310, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room2Damaged: {fileID: 24554812, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room3: {fileID: 24561144, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  Room3Damaged: {fileID: 24570762, guid: 9d63301856c8b2b4e9a55939c5fea781, type: 2}
+  MusicTrigger3: {fileID: 0}
+  MusicTrigger2: {fileID: 0}
+  MusicTrigger1: {fileID: 0}
   bpm: 141.619995
 --- !u!1001 &100100000
 Prefab:
@@ -545,7 +548,62 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Default
+      value: 
+      objectReference: {fileID: 24520302, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Damaged
+      value: 
+      objectReference: {fileID: 24500003, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: BassSolo
+      value: 
+      objectReference: {fileID: 24580536, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: ArpSolo
+      value: 
+      objectReference: {fileID: 24575548, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room1
+      value: 
+      objectReference: {fileID: 24503216, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room1Combat
+      value: 
+      objectReference: {fileID: 24595302, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room1Damaged
+      value: 
+      objectReference: {fileID: 24553026, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room2
+      value: 
+      objectReference: {fileID: 24534310, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room2Damaged
+      value: 
+      objectReference: {fileID: 24554812, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room3
+      value: 
+      objectReference: {fileID: 24561144, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: Room3Damaged
+      value: 
+      objectReference: {fileID: 24570762, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175606}
