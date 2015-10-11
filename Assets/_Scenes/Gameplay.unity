@@ -662,6 +662,161 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 442868497}
   m_Script: {fileID: 11500000, guid: 402697cacd142e14dade05e4fd34ce43, type: 3}
+--- !u!1001 &429459711
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1987183653}
+    m_Modifications:
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.75239658
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.50999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 79.9700012
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Default
+      value: 
+      objectReference: {fileID: 24520302, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Damaged
+      value: 
+      objectReference: {fileID: 24500003, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: BassSolo
+      value: 
+      objectReference: {fileID: 24580536, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: ArpSolo
+      value: 
+      objectReference: {fileID: 24575548, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room1
+      value: 
+      objectReference: {fileID: 24503216, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room1Combat
+      value: 
+      objectReference: {fileID: 24595302, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room1Damaged
+      value: 
+      objectReference: {fileID: 24553026, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room2
+      value: 
+      objectReference: {fileID: 24534310, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room2Damaged
+      value: 
+      objectReference: {fileID: 24554812, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room3
+      value: 
+      objectReference: {fileID: 24561144, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 11427642, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: Room3Damaged
+      value: 
+      objectReference: {fileID: 24570762, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8223314, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9db1bb54f5a9f57489d908e5f6f3859f, type: 3}
+    - target: {fileID: 8268108, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fda9502b24a1b4d4385210292aeae3cd, type: 3}
+    - target: {fileID: 8233234, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cc7c5b30272b2bd4eb7dc24c3cfb9a30, type: 3}
+    - target: {fileID: 8223314, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24325726, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8268108, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24322188, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8233234, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24343196, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8291854, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: be4458c5bb49a8e40b28b6017c898938, type: 3}
+    - target: {fileID: 8235906, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3da73699f6da1af42bbb35eba1e5b100, type: 3}
+    - target: {fileID: 8273366, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 86ef10e1ad54e3840b0754211a200d36, type: 3}
+    - target: {fileID: 8291854, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24353850, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8235906, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24391756, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    - target: {fileID: 8273366, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24302058, guid: 9d63301856c8b2b4e9a55939c5fea781,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &429459712 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 480186, guid: 6e7bfa86e422f5d44ad5aa2304a1d21f, type: 2}
+  m_PrefabInternal: {fileID: 429459711}
 --- !u!1001 &442868497
 Prefab:
   m_ObjectHideFlags: 0
@@ -1432,7 +1587,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 5
 --- !u!114 &1008367071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2518,7 +2673,8 @@ Transform:
   m_LocalRotation: {x: -.00354445819, y: .97164607, z: -.235819399, w: -.0167524181}
   m_LocalPosition: {x: 2.77999997, y: 6.05000019, z: 90.8499985}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 429459712}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &1987183654
