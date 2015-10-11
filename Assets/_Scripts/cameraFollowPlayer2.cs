@@ -6,7 +6,7 @@ public class cameraFollowPlayer2 : MonoBehaviour {
     public Transform LookTarget;
     public float zoom = 15f;
     public float smoothness = 5f;
-    public bool isZoomed = false;
+    bool isZoomed = false;
     float defaultFOV = 60;
 
 

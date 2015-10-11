@@ -12,6 +12,7 @@ TagManager:
   - MusicRoom2
   - MusicRoom3
   - EnemyDead
+  - SkipButton
   layers:
   - Default
   - TransparentFX

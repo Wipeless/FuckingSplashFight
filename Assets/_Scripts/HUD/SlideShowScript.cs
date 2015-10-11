@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SlideShowScript : MonoBehaviour {
 
-
+    //public Button skipButton;
     public int intervalTime = 5;
     float nowTime;
     float endTime;
@@ -82,6 +82,7 @@ public class SlideShowScript : MonoBehaviour {
             //print(alpha);
             Color newColor = new Color(c.r, c.g, c.b, alpha);
             myImage.color = newColor;
+            
             if (newColor.a <= 0f)
             {
                 currentlyFadingOut = false;
