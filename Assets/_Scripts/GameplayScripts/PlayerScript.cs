@@ -148,13 +148,13 @@ public class PlayerScript : MonoBehaviour {
         else
         {
             // we use world-relative directions in the case of no main camera
-            m_Move = v * Vector3.forward + h * Vector3.right;
+            m_Move = (h * Vector3.forward) + (v * Vector3.right);
         }
 
         GetComponent<Rigidbody>().AddForce(inputForce);
 
 
-        m_Move = v * Vector3.forward + h * Vector3.right;
+        m_Move = (-h * Vector3.forward) + (v * Vector3.right);
 
         if (m_Move.magnitude > 1f) m_Move.Normalize();
         m_Move = transform.InverseTransformDirection(m_Move);
