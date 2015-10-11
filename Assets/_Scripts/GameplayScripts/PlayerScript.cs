@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-
+[RequireComponent(typeof(CapsuleCollider))]
 public class PlayerScript : HumanBaseScript {
 
     //HUD variables
@@ -11,22 +11,16 @@ public class PlayerScript : HumanBaseScript {
     private bool _attack = false;   public bool Attack {  get { return _attack;  } }
     private bool _inPuddle = false;
     public float DamageAmount = 25;   //amount of damage the player takes when hit
-
-    //Animation variables
-    private Vector3 m_Move;
-    const float k_Half = 0.5f;
     public float MoveRate = 10;
     public float ForcePower = 200;
 
+    //Animation player variables
+    private Vector3 m_Move;
+    const float k_Half = 0.5f;
+
     public Transform m_Cam;                  // A reference to the main camera in the scenes transform
     private Vector3 m_CamForward;             // The current forward direction of the camera
-
-    bool m_Damaged;
-    bool m_Dead;
-    bool m_Attacking;
-    float m_TurnAmount;
     Vector3 m_GroundNormal;
-    float m_ForwardAmount;
 
 
     [SerializeField] float m_MovingTurnSpeed = 360;
@@ -175,7 +169,6 @@ public class PlayerScript : HumanBaseScript {
         float runCycle =
             Mathf.Repeat(
                 m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime + m_RunCycleLegOffset, 1);
-        float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
 
 
         // the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector,

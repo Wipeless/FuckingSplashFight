@@ -85,6 +85,10 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &19406270 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 443404, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
+  m_PrefabInternal: {fileID: 1780428988}
 --- !u!4 &23284131 stripped
 Transform:
   m_PrefabParentObject: {fileID: 419994, guid: ecd4c097814c46b4085678eebc90f423, type: 2}
@@ -104,7 +108,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &246240654
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +213,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!114 &254390300 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11426264, guid: 733f5313e8967ef4ba194e13f8410b74,
@@ -336,6 +346,53 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ecd4c097814c46b4085678eebc90f423, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &374345505
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.42500019
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.23999977
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471278, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: AggressTarget
+      value: 
+      objectReference: {fileID: 19406270}
+    m_RemovedComponents:
+    - {fileID: 13631886, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &439886125
 GameObject:
@@ -661,7 +718,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1001 &922132491
 Prefab:
   m_ObjectHideFlags: 0
@@ -849,7 +909,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!4 &1031551325 stripped
 Transform:
   m_PrefabParentObject: {fileID: 407354, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
@@ -1013,7 +1076,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1165550691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1173364920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1215467967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +1423,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1001 &1385003149
 Prefab:
   m_ObjectHideFlags: 0
@@ -1507,7 +1582,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1461832322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,7 +1766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1671618859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,7 +1871,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1694921129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,7 +2008,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1001 &1780428988
 Prefab:
   m_ObjectHideFlags: 0
@@ -1972,6 +2059,10 @@ Prefab:
       propertyPath: m_Cam
       value: 
       objectReference: {fileID: 1970415487}
+    - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
+      propertyPath: ForcePower
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
   m_IsPrefabParent: 0
@@ -2118,7 +2209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &1970415482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,48 +2319,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 922132491}
   m_Script: {fileID: 11500000, guid: 818085df2461ea4409cf8f731161eedd, type: 3}
---- !u!1001 &2008144441
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 480014, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 15fea2227b51807469eea22c7aa55c22, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &2023728679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2420,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003
 --- !u!1 &2062698185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,4 +2525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b985706d5081b4545baf20f7253d5cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentHealthState: 0
   CurrentEnemyState: 0
+  AggressTarget: {fileID: 0}
+  m_RunCycleLegOffset: .200000003

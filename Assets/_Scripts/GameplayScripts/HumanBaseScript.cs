@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(CapsuleCollider))]
 [RequireComponent(typeof(Animator))]
 public class HumanBaseScript : MonoBehaviour {
 
@@ -18,6 +17,13 @@ public class HumanBaseScript : MonoBehaviour {
 
     protected float health = 100; public float Health { get { return health; } }
 
+
+    //Animation parameters
+    protected bool m_Damaged;
+    protected bool m_Dead;
+    protected bool m_Attacking;
+    protected float m_TurnAmount;
+    protected float m_ForwardAmount;
 
     // Use this for initialization
     void Start () {
