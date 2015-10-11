@@ -16,6 +16,9 @@ public class SceneManager : MonoBehaviour {
 
     public static bool IsPlayerDead { get { return playerDead; } }
 
+    private float playerDeadTimer;              //timer upon the player's death. once done, go to game over scene
+    private float playerDeadTimerLimit = 3;
+
     const int maxNumSFX_enemy = 10;
     public static int numSFX_enemy = 0;  
     public static bool doSFX_enemy = true;
@@ -31,7 +34,8 @@ public class SceneManager : MonoBehaviour {
     void Update()
     {
         HandleQuit();
-        HandlePlayer();
+        if(Player != null)
+           HandlePlayer();
         HandleDoors();
         HandleSceneState();
     }
@@ -106,11 +110,18 @@ public class SceneManager : MonoBehaviour {
         {
             if (!playerDead)
             {
+                //mark the player dead for the scene manager
                 playerDead = true;
+                playerDeadTimer = Time.time;
 
                 GameObject[] remainingEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
                 foreach (GameObject o in remainingEnemies)
                     o.GetComponent<EnemyScript>().CurrentEnemyState = EnemyScript.EnumEnemyStates.ROAM;
+            }
+            else
+            {
+                //after the player has been dead for a bit, transition to gameover loss
+                GoToGameOver_Lost();
             }
         }
     }
@@ -152,5 +163,19 @@ public class SceneManager : MonoBehaviour {
     public void OnClickMainMenu()
     {
         Application.LoadLevel(1);
+    }
+    public void OnClickGameOver()
+    {
+        Application.LoadLevel(0);
+    }
+
+    private void GoToGameOver_Won()
+    {
+        Application.LoadLevel(3);
+    }
+
+    private void GoToGameOver_Lost()
+    {
+        Application.LoadLevel(2);
     }
 }

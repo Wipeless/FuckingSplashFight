@@ -13,6 +13,9 @@ public class LevelManagerScript : MonoBehaviour {
     private float transitionTimer;
     private const float transitionTimerLimit = 2;
 
+    private float successTimer;                     //starts once all the levels have been cleared. upon completion, go to game over won scene
+    private const float successTimerLimit = 3;
+
     //level 1 entities
     public GameObject Level1_Puddle;
     public GameObject Level1_Enemy1;
