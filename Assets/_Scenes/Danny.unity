@@ -307,6 +307,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &503996027 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 162928, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+  m_PrefabInternal: {fileID: 1202765092}
+--- !u!76 &503996034
+WorldParticleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503996027}
+  m_BounceFactor: .5
+  m_CollisionEnergyLoss: 0
+  m_CollidesWith:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SendCollisionMessage: 1
+  m_MinKillVelocity: 0
 --- !u!1001 &588651468
 Prefab:
   m_ObjectHideFlags: 0
@@ -354,6 +371,10 @@ Prefab:
       propertyPath: AggressTarget
       value: 
       objectReference: {fileID: 19406270}
+    - target: {fileID: 5459118, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
   m_IsPrefabParent: 0
@@ -560,6 +581,34 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: lengthInSec
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: EmissionModule.rate.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
   m_IsPrefabParent: 0
@@ -668,6 +717,14 @@ Prefab:
       propertyPath: AggressTarget
       value: 
       objectReference: {fileID: 19406270}
+    - target: {fileID: 5459118, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459118, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
   m_IsPrefabParent: 0
@@ -675,6 +732,36 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 122000, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
   m_PrefabInternal: {fileID: 1067341887}
+--- !u!76 &1246310910
+WorldParticleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246310906}
+  m_BounceFactor: 1
+  m_CollisionEnergyLoss: 0
+  m_CollidesWith:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SendCollisionMessage: 1
+  m_MinKillVelocity: 0
+--- !u!1 &1267912687 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 162928, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+  m_PrefabInternal: {fileID: 1740901300}
+--- !u!76 &1267912694
+WorldParticleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267912687}
+  m_BounceFactor: .5
+  m_CollisionEnergyLoss: 0
+  m_CollidesWith:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SendCollisionMessage: 1
+  m_MinKillVelocity: 0
 --- !u!1001 &1385003149
 Prefab:
   m_ObjectHideFlags: 0
@@ -729,6 +816,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1417780760 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 162928, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+  m_PrefabInternal: {fileID: 588651468}
+--- !u!76 &1417780767
+WorldParticleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417780760}
+  m_BounceFactor: .5
+  m_CollisionEnergyLoss: 0
+  m_CollidesWith:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SendCollisionMessage: 1
+  m_MinKillVelocity: 0
 --- !u!1 &1461832322
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,12 +949,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436974, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11471278, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
       propertyPath: AggressTarget
       value: 
       objectReference: {fileID: 19406270}
+    - target: {fileID: 5459118, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0be4acc0597a14d4a93e0f836510dce3, type: 2}
   m_IsPrefabParent: 0
@@ -1041,11 +1149,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1970415482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91e090943bc72744a90e329fe41ace5c, type: 3}
+  m_Script: {fileID: 11500000, guid: e7b9b367b9967e840994b7906e7b39e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1970415487}
   lookTarget: {fileID: 1031551325}
+  zoom: 10
+  smoothness: 5
+  isZoomed: 0
 --- !u!114 &1981765385 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11445148, guid: fc365804eb6c44943b6c222611fc4771,

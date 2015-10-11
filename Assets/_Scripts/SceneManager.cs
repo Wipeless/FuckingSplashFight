@@ -63,19 +63,21 @@ public class SceneManager : MonoBehaviour {
     {
         if (Player.AttackExecuted)
         {
+            areAllEnemiesDead = true;
             //apply force to the entire scene of bad guys
 
-            GameObject[] allEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
+            GameObject[] enemiesHit = (GameObject.FindGameObjectsWithTag("EnemyDead"));
+            GameObject[] remainingEnemies = (GameObject.FindGameObjectsWithTag("Enemy"));
+            //check to see if all enemies are dead
+            if (remainingEnemies.Length > 0)
+            {
+                areAllEnemiesDead = false;
+            }
+            Debug.Log("remaining Enemies: " + remainingEnemies.Length);
 
-            foreach (GameObject e in allEnemies)
+            foreach (GameObject e in enemiesHit)
             {
                 e.GetComponent<EnemyScript>().ReceiveDamage(Player.ForcePower, Player.transform.position);
-
-                //check to see if all enemies are dead
-                if (e.GetComponent<EnemyScript>().CurrentHealthState == HumanBaseScript.EnumHealthState.ALIVE)
-                {
-                    areAllEnemiesDead = false;
-                }
             }
 
             if (areAllEnemiesDead)

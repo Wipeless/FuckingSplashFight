@@ -2,7 +2,10 @@
 
 [RequireComponent(typeof(BoxCollider))]
 
-public class EnemyScript : HumanBaseScript {
+public class EnemyScript : HumanBaseScript
+{
+    public ParticleSystem part;
+    public ParticleCollisionEvent[] collisionEvents;
 
     public enum EnumEnemyStates
     {
@@ -43,7 +46,11 @@ public class EnemyScript : HumanBaseScript {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
+        part = GetComponent<ParticleSystem>();
+        collisionEvents = new ParticleCollisionEvent[16];
+
         audio = GetComponent<AudioSource>();
 
         m_Animator = GetComponent<Animator>();
@@ -52,7 +59,7 @@ public class EnemyScript : HumanBaseScript {
         m_RigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
         pursueRate = Random.Range(pursueRateMin, pursueRateMax);
-             
+
         aggressionTimerLimit = Random.Range(aggressionTimerLimitMin, aggressionTimerLimitMax);
         aggressionTimer = Time.time;
 
@@ -61,7 +68,8 @@ public class EnemyScript : HumanBaseScript {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         if (CurrentHealthState == EnumHealthState.ALIVE)
             HandleAggressionBehavior();
         else
@@ -158,7 +166,7 @@ public class EnemyScript : HumanBaseScript {
             switch (rand)
             {
                 case 0:
-                    if(SceneManager.IncrementSFX())
+                    if (SceneManager.IncrementSFX())
                         audio.PlayOneShot(Clip_Death1, 1);
                     break;
                 case 1:
@@ -197,4 +205,14 @@ public class EnemyScript : HumanBaseScript {
         m_Animator.speed = 1;
     }
 
+    void OnParticleCollision(GameObject other)
+    {
+        //Collider collider = other.GetComponent<Collider>();
+
+        //GameObject g = collider.gameObject;
+            Debug.Log("Collision Detected, " + other.name + ".  GameObject: ");// + g.tag);
+        if (tag == "Enemy")
+            tag = "EnemyDead";
+
+    }
 }
