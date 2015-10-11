@@ -142,6 +142,10 @@ Prefab:
       propertyPath: Door
       value: 
       objectReference: {fileID: 254390300}
+    - target: {fileID: 11466570, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
+      propertyPath: Door1_Exit
+      value: 
+      objectReference: {fileID: 254390300}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 473ddb5714f0c1b48b23942d8082e7fd, type: 2}
   m_IsPrefabParent: 0
@@ -439,10 +443,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc365804eb6c44943b6c222611fc4771, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1031551325 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 407354, guid: f925c215dd2f13547b6a0c55337a6246, type: 2}
-  m_PrefabInternal: {fileID: 1385003149}
 --- !u!1001 &1067341887
 Prefab:
   m_ObjectHideFlags: 0
@@ -567,11 +567,6 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 122000, guid: 4c956248a67be6040bb5dc4feeb6671e, type: 2}
   m_PrefabInternal: {fileID: 1067341887}
---- !u!198 &1246310908 stripped
-ParticleSystem:
-  m_PrefabParentObject: {fileID: 19875258, guid: 4c956248a67be6040bb5dc4feeb6671e,
-    type: 2}
-  m_PrefabInternal: {fileID: 1067341887}
 --- !u!76 &1246310910
 WorldParticleCollider:
   m_ObjectHideFlags: 0
@@ -627,7 +622,7 @@ Prefab:
     - target: {fileID: 11417230, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
       propertyPath: part
       value: 
-      objectReference: {fileID: 1246310908}
+      objectReference: {fileID: 0}
     - target: {fileID: 11417230, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
       propertyPath: AggressTarget
       value: 
@@ -732,6 +727,10 @@ Prefab:
       propertyPath: m_Name
       value: BigEnemyAnimated (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 11417230, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
+      propertyPath: AggressTarget
+      value: 
+      objectReference: {fileID: 19406270}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
   m_IsPrefabParent: 0
@@ -857,6 +856,10 @@ Prefab:
       propertyPath: m_Name
       value: BigEnemyAnimated (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11417230, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
+      propertyPath: AggressTarget
+      value: 
+      objectReference: {fileID: 19406270}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6552bb22f7413364f84226e2b332514e, type: 2}
   m_IsPrefabParent: 0
@@ -1051,7 +1054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1970415487}
-  lookTarget: {fileID: 1031551325}
+  lookTarget: {fileID: 19406270}
   zoom: 10
   smoothness: 5
   isZoomed: 0

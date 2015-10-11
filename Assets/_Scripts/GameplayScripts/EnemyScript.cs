@@ -4,8 +4,8 @@
 
 public class EnemyScript : HumanBaseScript
 {
-    public ParticleSystem part;
-    public ParticleCollisionEvent[] collisionEvents;
+    //public ParticleSystem part;
+    //public ParticleCollisionEvent[] collisionEvents;
 
     public enum EnumEnemyStates
     {
@@ -58,8 +58,8 @@ public class EnemyScript : HumanBaseScript
     // Use this for initialization
     void Start()
     {
-        part = GetComponent<ParticleSystem>();
-        collisionEvents = new ParticleCollisionEvent[16];
+        //part = GetComponent<ParticleSystem>();
+        //collisionEvents = new ParticleCollisionEvent[16];
 
         audio = GetComponent<AudioSource>();
 
