@@ -25,7 +25,7 @@ public class SceneManager : MonoBehaviour {
 
     private void HandlePlayer()
     {
-        if (Player.Attack)
+        if (Player.AttackExecuted)
         {
             //apply force to the entire scene of bad guys
 

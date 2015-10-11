@@ -8,8 +8,17 @@ public class PlayerScript : HumanBaseScript {
     public HUD_Gameplay HUD;
 
     //Gameplay variables
-    private bool _attack = false;   public bool Attack {  get { return _attack;  } }
-    private bool _inPuddle = false;
+
+    //when the user first pushes the button to attack.
+    //use this variable to prepare things like camera movements and sounds for when the actual attack (force) happens
+    private bool attackInit = false; public bool AttackInit { get { return attackInit; } }
+    private float attackTimer;
+    private float attackTimerLimit = 0.5f;             
+    
+    //true when the actual attack is happening                                                                                                                        
+    private bool attackExecuted = false;   public bool AttackExecuted {  get { return attackExecuted;  } }
+
+    private bool inPuddle = false;
     public float DamageAmount = 25;   //amount of damage the player takes when hit
     public float MoveRate = 10;
     public float ForcePower = 200;
@@ -74,20 +83,29 @@ public class PlayerScript : HumanBaseScript {
         if (collision.gameObject.tag == "Puddle")
         {
             Debug.Log("player is colliding with puddle");
-            _inPuddle = true;
+            inPuddle = true;
         }
     }
 
     void OnTriggerExit(Collider collision)
     {
-        _inPuddle = false;
+        inPuddle = false;
     }
 
     // Update is called once per frame
     void Update () {
 
-        _attack = false;
-        m_Attacking = false;
+        attackExecuted = false;
+
+        if (attackInit)
+        {
+            if (Time.time - attackTimer > attackTimerLimit)
+            {
+                attackInit = false;
+                m_Attacking = false;
+                attackExecuted = true;
+            }
+        }
 
         if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
             CurrentHealthState == EnumHealthState.ALIVE)
@@ -98,13 +116,14 @@ public class PlayerScript : HumanBaseScript {
     {
         Vector3 inputForce = Vector3.zero;
 
-        if (!_attack && _inPuddle)
+        if (!attackInit && inPuddle)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Attack!");
-                _attack = true;
+                attackInit = true;
                 m_Attacking = true;
+                attackTimer = Time.time;
             }
         }
 

@@ -24,7 +24,7 @@ public class cameraFollowPlayer2 : MonoBehaviour {
             //transform.position = new Vector3(transform.position.x, transform.position.y, lookTarget.position.z);
 
             target.transform.LookAt(lookTarget);
-            if (lookTarget.GetComponent<PlayerScript>().Attack)
+            if (lookTarget.GetComponent<PlayerScript>().AttackInit)
             {
                 //Time.timeScale = 1f;
                 target.GetComponent<Camera>().fieldOfView = Mathf.Lerp(target.GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
