@@ -1310,16 +1310,16 @@ MonoBehaviour:
   part: {fileID: 0}
   CurrentEnemyState: 0
   AggressTarget: {fileID: 0}
-  Clip_Attack1: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Attack2: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Attack3: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
+  Clip_Attack1: {fileID: 8300000, guid: 4ed6213762cb02547b36e7bc9b8f2d0c, type: 3}
+  Clip_Attack2: {fileID: 8300000, guid: a564686e5ef846845b04942aa00cd6db, type: 3}
+  Clip_Attack3: {fileID: 8300000, guid: 4852c81ec762e6141a0e623171147c39, type: 3}
   Clip_Hurt: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Death1: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Death2: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Death3: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Aggress1: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Aggress2: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
-  Clip_Aggress3: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
+  Clip_Death1: {fileID: 8300000, guid: cc8534956c5febb429120590dc66d293, type: 3}
+  Clip_Death2: {fileID: 8300000, guid: 6326ce2ab6720ef48b1c5731dcd79552, type: 3}
+  Clip_Death3: {fileID: 8300000, guid: 3fb87b9a147c4254f8ad6a190116844d, type: 3}
+  Clip_Aggress1: {fileID: 8300000, guid: 09f3ad6e6c2137d4dbd780f8d16b9a00, type: 3}
+  Clip_Aggress2: {fileID: 8300000, guid: cf59e59e6abffed429b705b49fbd1d9c, type: 3}
+  Clip_Aggress3: {fileID: 8300000, guid: 0866466100338f0458857e1c91f80846, type: 3}
   m_RunCycleLegOffset: .200000003
 --- !u!137 &13750992
 SkinnedMeshRenderer:

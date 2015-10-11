@@ -5,6 +5,14 @@ using UnityStandardAssets.CrossPlatformInput;
 [RequireComponent(typeof(CapsuleCollider))]
 public class PlayerScript : HumanBaseScript {
 
+    public enum EnumControlMode
+    {
+        NORMAL = 0,
+        AUTO,
+    }
+
+    public EnumControlMode CurrentControlMode = EnumControlMode.NORMAL;
+
     //HUD variables
     public HUD_Gameplay HUD;
 
@@ -152,8 +160,15 @@ public class PlayerScript : HumanBaseScript {
             }
         }
 
-        if(HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED)
+        if (HUD.CurrentHUDState == HUD_Gameplay.EnumCurrentHUDState.NOTDISPLAYED &&
+            CurrentControlMode == EnumControlMode.NORMAL)
             HandleInput();
+        else if (CurrentControlMode == EnumControlMode.AUTO)
+            HandleAuto();
+    }
+
+    private void HandleAuto()
+    {
     }
 
     private void HandleInput()
