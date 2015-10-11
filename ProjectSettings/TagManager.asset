@@ -11,6 +11,7 @@ TagManager:
   - MusicRoom1
   - MusicRoom2
   - MusicRoom3
+  - EnemyDead
   layers:
   - Default
   - TransparentFX
