@@ -4,17 +4,17 @@ using System.Collections;
 public class cameraFollowPlayer2 : MonoBehaviour {
 
     public Transform LookTarget;
-    public float zoom = 15f;
+    public float zoom = 1f;
     public float smoothness = 5f;
     bool isZoomed = false;
     float defaultFOV = 60;
+    float timeScale = 1f;
 
 
     public void Start()
     {
 
     }
-
     public void LateUpdate()
     {
         if (LookTarget)
@@ -26,15 +26,30 @@ public class cameraFollowPlayer2 : MonoBehaviour {
 
             if (LookTarget.GetComponent<PlayerScript>().AttackInit)
             {
-                Time.timeScale = .3f;
+                if (timeScale == 1f)
+                    setTimeScale(.4f);
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
             }
             else
             {
-                Time.timeScale = 1f;
+                if (timeScale != 1f)
+                    setTimeScale(1f);
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, defaultFOV, Time.deltaTime * smoothness);
                 
             }
+        }
+    }
+    void setTimeScale(float t)
+    {
+        try
+        {
+            //GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale = t;
+            Time.timeScale = t;
+            timeScale = t;
+        }
+        catch
+        {
+            timeScale = 1f;
         }
     }
 }

@@ -32,9 +32,9 @@ public class ParticleScript : MonoBehaviour {
                     tempParticle.transform.Rotate(0, -90, 0);
                     Quaternion particleRotation = new Quaternion(tempParticle.transform.rotation.x, tempParticle.transform.rotation.y, tempParticle.transform.rotation.z, tempParticle.transform.rotation.w);
                     //newParticle = new GameObject();
-                    newParticle = (GameObject)Instantiate(particle, transform.position, particleRotation);
-                    Destroy(newParticle.gameObject, .5f);
-                    Destroy(tempParticle.gameObject, .5f);
+                    newParticle = (GameObject)Instantiate(particle, player.transform.position, particleRotation);
+                    Destroy(newParticle.gameObject, 1.5f);
+                    Destroy(tempParticle.gameObject, 1.5f);
                     //Destroy(particleRotation, .5f);
                 }
             }

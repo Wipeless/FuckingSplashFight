@@ -37,13 +37,14 @@ public class SlideShowScript : MonoBehaviour {
         // make all the images be transparent but the first one in the array
         for(int i = 1; i < itemsSorted.Length; i++)
         {
-            RawImage myImage = itemsSorted[i].GetComponentInChildren<RawImage>();
+            Image myImage = itemsSorted[i].GetComponentInChildren<Image>();
             Color c = myImage.color;
             float alpha = 0f;
             Color newColor = new Color(c.r, c.g, c.b, alpha);
             myImage.color = newColor;
             //itemsSorted[i].SetActive(false);
         }
+        fadingSlide = itemsSorted[currentSlideIndex];
         initiateTimer();
 
     }
@@ -60,7 +61,7 @@ public class SlideShowScript : MonoBehaviour {
         }
         if (currentlyFadingIn)
         {
-            RawImage myImage = fadingSlide.GetComponentInChildren<RawImage>();
+            Image myImage = fadingSlide.GetComponentInChildren<Image>();
             Color c = myImage.color;
             float alpha = c.a;
             alpha += (Time.deltaTime / fadeTime);
@@ -75,7 +76,8 @@ public class SlideShowScript : MonoBehaviour {
         }
         if (currentlyFadingOut)
         {
-            RawImage myImage = fadingSlide.GetComponentInChildren<RawImage>();
+
+            Image myImage = fadingSlide.GetComponentInChildren<Image>();
             Color c = myImage.color;
             float alpha = c.a;
             alpha -= (Time.deltaTime / fadeTime);
@@ -94,6 +96,7 @@ public class SlideShowScript : MonoBehaviour {
      
     void initiateTimer()
     {
+        intervalTime = fadingSlide.GetComponent<SlidePropertiesScript>().timeToDisplay;
         nowTime = Time.time;
         endTime = nowTime + (float)intervalTime;
         Debug.Log("nowTime: " + nowTime);
@@ -114,7 +117,7 @@ public class SlideShowScript : MonoBehaviour {
         {
             for (int i = 0; i < itemsSorted.Length-1; i++)
             {
-                RawImage myImage = itemsSorted[i].GetComponentInChildren<RawImage>();
+                Image myImage = itemsSorted[i].GetComponentInChildren<Image>();
                 Color c = myImage.color;
                 float alpha = 0f;
                 Color newColor = new Color(c.r, c.g, c.b, alpha);

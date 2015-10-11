@@ -411,7 +411,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435830, guid: 41371f1b15895324685ab1e19cabda62, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11487152, guid: 41371f1b15895324685ab1e19cabda62, type: 2}
       propertyPath: player

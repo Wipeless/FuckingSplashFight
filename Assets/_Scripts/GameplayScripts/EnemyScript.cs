@@ -52,6 +52,9 @@ public class EnemyScript : HumanBaseScript
     private float isAttackingTimer;  //time used to give multiple damage to player if collision still true
     private const float isAttackingTimeLimit = 0.8f;
 
+    //timescale
+    //float timeScale = 1f;
+
     [SerializeField]
     float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 
@@ -96,6 +99,7 @@ public class EnemyScript : HumanBaseScript
     // Update is called once per frame
     void Update()
     {
+        getTimeScale();
         if (CurrentHealthState == EnumHealthState.ALIVE)
             HandleEnemyBehavior();
         else
@@ -293,5 +297,17 @@ public class EnemyScript : HumanBaseScript
         if (tag == "Enemy")
             tag = "EnemyDead";
 
+    }
+
+    void getTimeScale()
+    {
+        try
+        {
+            //Time.timeScale = GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale;
+        }
+        catch
+        {
+            Time.timeScale = 1f;
+        }
     }
 }
