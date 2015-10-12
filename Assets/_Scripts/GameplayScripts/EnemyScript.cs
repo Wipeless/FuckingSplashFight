@@ -295,8 +295,22 @@ public class EnemyScript : HumanBaseScript
         //GameObject g = collider.gameObject;
         //Debug.Log("Collision Detected, " + other.name + ".  GameObject: ");// + g.tag);
         if (tag == "Enemy")
+        {
             tag = "EnemyDead";
+            enemiesHit();
+        }
+    }
+    void enemiesHit()
+    {
+        try
+        {
+            GameObject.Find("SceneManager").GetComponent<sceneManager2>().enemiesHitbool = true;
+        }
 
+        catch
+        {
+            Debug.Log("didn't find SceneManager");
+        }
     }
 
     void getTimeScale()

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-public class SceneManager : MonoBehaviour {
+public class sceneManager2 : MonoBehaviour {
 
     public PlayerScript Player;
     public LevelManagerScript LevelManger;
@@ -11,8 +12,8 @@ public class SceneManager : MonoBehaviour {
     public DoorScript Door3_Entry;
     public DoorScript Door3_Exit;
 
-    static bool startNewLevel = false;      public static void ResetSceneState() { startNewLevel = true; } 
-    static bool areAllEnemiesDead = false; 
+    static bool startNewLevel = false; public static void ResetSceneState() { startNewLevel = true; }
+    static bool areAllEnemiesDead = false;
     static bool playerDead = false;
 
     public static bool IsPlayerDead { get { return playerDead; } }
@@ -25,13 +26,15 @@ public class SceneManager : MonoBehaviour {
     private float playerWinTimerLimit = 5;
 
     const int maxNumSFX_enemy = 10;
-    public static int numSFX_enemy = 0;  
+    public static int numSFX_enemy = 0;
     public static bool doSFX_enemy = true;
 
     public static float SFXTimer;
     const float SFXTimerLimit = 1;
 
     public float TimeScale = 1f;
+    public bool enemiesHitbool = false;
+    public bool objectsHitbool = false;
 
     void Start()
     {
@@ -41,8 +44,8 @@ public class SceneManager : MonoBehaviour {
     void Update()
     {
         HandleQuit();
-        if(Player != null)
-           HandlePlayer();
+        if (Player != null)
+            HandlePlayer();
         HandleDoors();
         HandleSceneState();
     }
@@ -116,7 +119,7 @@ public class SceneManager : MonoBehaviour {
 
     private void HandlePlayer()
     {
-        if (Player.AttackExecuted)
+        if (enemiesHitbool)
         {
             areAllEnemiesDead = true;
             //apply force to the entire scene of bad guys
@@ -130,16 +133,24 @@ public class SceneManager : MonoBehaviour {
             foreach (GameObject e in enemiesHit)
                 e.GetComponent<EnemyScript>().ReceiveDamage(Player.ForcePower, Player.transform.position);
 
+            enemiesHitbool = false;
+        }
+        if (objectsHitbool)
+        {
             GameObject[] objectsHit = (GameObject.FindGameObjectsWithTag("PhysicsObjectHit"));
             foreach (GameObject e in objectsHit)
             {
                 e.GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - Player.transform.position) * Player.ForcePower, Player.transform.position);
                 e.tag = "PhysicsObject";
+                
             }
+
+            objectsHitbool = false;
+
 
         }
 
-        
+
 
         if (Player.CurrentHealthState == HumanBaseScript.EnumHealthState.DEAD)
         {
@@ -156,7 +167,7 @@ public class SceneManager : MonoBehaviour {
             else
             {
                 //after the player has been dead for a bit, transition to gameover loss
-                if(Time.time - playerDeadTimer > playerDeadTimerLimit)
+                if (Time.time - playerDeadTimer > playerDeadTimerLimit)
                     GoToGameOver_Lost();
             }
         }
