@@ -1,0 +1,129 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.059 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\SplashMaster_Data\Managed\System.dll (this message is harmless)
+start new level
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+SceneManager: the level has started
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1920 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.620149 ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Images).
+ 
+(Filename:  Line: 525)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 0.347483 ms (FindLiveObjects: 0.029690 ms CreateObjectMapping: 0.079906 ms MarkObjects: 0.225791 ms  DeleteObjects: 0.011729 ms)
+
+6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Slide6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+nowTime: 3.541978
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+endTime: 8.541978
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Starting to Fade...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+nowTime: 8.550496
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+endTime: 13.5505
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+done fading in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Starting to Fade...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+nowTime: 13.56454
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+endTime: 18.56454
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+done fading in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Starting to Fade...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+nowTime: 18.57721
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+endTime: 23.57721
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+done fading in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
