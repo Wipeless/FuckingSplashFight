@@ -694,7 +694,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106262}
   m_LocalRotation: {x: 0, y: .618267357, z: 0, w: .785967886}
-  m_LocalPosition: {x: -5.3499999, y: 0, z: 5.24710321}
+  m_LocalPosition: {x: -2.4509716, y: -7.28215599, z: -38.842659}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 492904}
@@ -1216,7 +1216,8 @@ AudioSource:
   m_GameObject: {fileID: 106262}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300001, guid: 66f42fdd94d256e4294888b41bcb000d,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1252,7 +1253,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
+      value: .458000004
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1272,7 +1273,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: .574999988
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1316,9 +1317,13 @@ MonoBehaviour:
   Clip_Death1: {fileID: 8300000, guid: cc8534956c5febb429120590dc66d293, type: 3}
   Clip_Death2: {fileID: 8300000, guid: 6326ce2ab6720ef48b1c5731dcd79552, type: 3}
   Clip_Death3: {fileID: 8300000, guid: 3fb87b9a147c4254f8ad6a190116844d, type: 3}
+  Clip_Death4: {fileID: 8300000, guid: e800e5e3430bc0b44ba95505c64e649e, type: 3}
+  Clip_Death5: {fileID: 8300000, guid: 2d6b444cb3663c34e9b8cdabb0e322a8, type: 3}
   Clip_Aggress1: {fileID: 8300000, guid: 09f3ad6e6c2137d4dbd780f8d16b9a00, type: 3}
   Clip_Aggress2: {fileID: 8300000, guid: cf59e59e6abffed429b705b49fbd1d9c, type: 3}
   Clip_Aggress3: {fileID: 8300000, guid: 0866466100338f0458857e1c91f80846, type: 3}
+  Clip_Aggress4: {fileID: 8300000, guid: 9ba2ab77c1112894dab40be8dc7921ca, type: 3}
+  Clip_Aggress5: {fileID: 8300000, guid: 911967bc3e4619146aa925df73d8eaae, type: 3}
   m_RunCycleLegOffset: .200000003
 --- !u!137 &13750992
 SkinnedMeshRenderer:
@@ -1389,6 +1394,19 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Mass
       value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300001, guid: 66f42fdd94d256e4294888b41bcb000d,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: .458000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: .574999988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
