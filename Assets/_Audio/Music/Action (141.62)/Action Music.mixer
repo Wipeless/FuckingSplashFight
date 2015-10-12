@@ -21,7 +21,7 @@ AudioMixerController:
   - {fileID: 24561144}
   - {fileID: 24570762}
   - {fileID: 24590452}
-  m_StartSnapshot: {fileID: 24580536}
+  m_StartSnapshot: {fileID: 24503216}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_ExposedParameters: []
@@ -37,7 +37,7 @@ AudioMixerController:
     - 1a8531118bed1364183dc6653355a8e8
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24580536}
+  m_TargetSnapshot: {fileID: 24503216}
 --- !u!243 &24300001
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -458,6 +458,7 @@ AudioMixerSnapshotController:
     fb86e5729a82adf48b9868f87f048706: -80
     8778a8d2f989ae74a95255cb95857406: -.00244187214
     ca3f79a471cb8734a8283f88a8ad69fe: -80
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -80
   m_TransitionOverrides: {}
 --- !u!245 &24520302
@@ -476,6 +477,7 @@ AudioMixerSnapshotController:
     6609a7e3d8723a140ac7537113ce1343: .939999998
     69d151f540455b749815dafea2a3f2f2: .218999997
     63e940c639a4b6a4cbb31fb7967f9a91: -11.3000002
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     f6e81597113c58c43baffdafcdd8f2e1: 36
     312ef75803f9a434e9810ac85d7e05b8: 5.28999996
     edabc3783c289b94ba4998e795b13b75: .252999991
@@ -505,6 +507,7 @@ AudioMixerSnapshotController:
     fb86e5729a82adf48b9868f87f048706: -80
     8778a8d2f989ae74a95255cb95857406: -.00244187214
     ca3f79a471cb8734a8283f88a8ad69fe: -.00244187191
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -19.4229679
     154f9adf6f20db448b13afcaec8e4dfd: -80
   m_TransitionOverrides: {}
@@ -525,6 +528,7 @@ AudioMixerSnapshotController:
     69d151f540455b749815dafea2a3f2f2: .218999997
     189127660fa1f75499df48d17455ca98: 0
     63e940c639a4b6a4cbb31fb7967f9a91: -11.3000002
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     f6e81597113c58c43baffdafcdd8f2e1: 36
     312ef75803f9a434e9810ac85d7e05b8: 5.28999996
     edabc3783c289b94ba4998e795b13b75: .252999991
@@ -558,6 +562,7 @@ AudioMixerSnapshotController:
     69d151f540455b749815dafea2a3f2f2: .218999997
     189127660fa1f75499df48d17455ca98: 0
     63e940c639a4b6a4cbb31fb7967f9a91: -11.3000002
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     f6e81597113c58c43baffdafcdd8f2e1: 36
     312ef75803f9a434e9810ac85d7e05b8: 5.28999996
     edabc3783c289b94ba4998e795b13b75: .252999991
@@ -590,6 +595,7 @@ AudioMixerSnapshotController:
     8778a8d2f989ae74a95255cb95857406: -.00244187214
     ca3f79a471cb8734a8283f88a8ad69fe: -.00244187191
     189127660fa1f75499df48d17455ca98: -80
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -10.4748535
     154f9adf6f20db448b13afcaec8e4dfd: -80
   m_TransitionOverrides: {}
@@ -610,6 +616,7 @@ AudioMixerSnapshotController:
     69d151f540455b749815dafea2a3f2f2: .218999997
     189127660fa1f75499df48d17455ca98: 0
     63e940c639a4b6a4cbb31fb7967f9a91: -11.3000002
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     f6e81597113c58c43baffdafcdd8f2e1: 36
     312ef75803f9a434e9810ac85d7e05b8: 5.28999996
     edabc3783c289b94ba4998e795b13b75: .252999991
@@ -641,6 +648,7 @@ AudioMixerSnapshotController:
     c9671911431d47b409b33e8c0337082e: -80
     fb86e5729a82adf48b9868f87f048706: -80
     8778a8d2f989ae74a95255cb95857406: -80
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -80
   m_TransitionOverrides: {}
 --- !u!245 &24580536
@@ -654,6 +662,7 @@ AudioMixerSnapshotController:
   m_FloatValues:
     8778a8d2f989ae74a95255cb95857406: -80
     ca3f79a471cb8734a8283f88a8ad69fe: -80
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -80
   m_TransitionOverrides: {}
 --- !u!245 &24590452
@@ -706,5 +715,6 @@ AudioMixerSnapshotController:
     fb86e5729a82adf48b9868f87f048706: -80
     8778a8d2f989ae74a95255cb95857406: -.00244187214
     ca3f79a471cb8734a8283f88a8ad69fe: -.00244187191
+    0e68dd17c6b0ddc4c84dbf4d0ff3925c: -3.50903964
     ec7e75bd44c51aa45b2fed05b5eb4f03: -80
   m_TransitionOverrides: {}

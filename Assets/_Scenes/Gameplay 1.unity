@@ -782,6 +782,7 @@ Transform:
   - {fileID: 1599263062}
   - {fileID: 602310585}
   - {fileID: 1571215377}
+  - {fileID: 672404180}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1001 &165719513
@@ -2120,11 +2121,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 672404179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.5600004, y: -45.0499992, z: 25.5200005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.20180893, y: .109931946, z: 33.4000015}
+  m_LocalScale: {x: 2.61404943, y: 2.61404967, z: 2.61404967}
   m_Children: []
-  m_Father: {fileID: 1544365356}
-  m_RootOrder: 10
+  m_Father: {fileID: 157877560}
+  m_RootOrder: 15
 --- !u!167 &672404181
 AudioReverbZone:
   m_ObjectHideFlags: 0
@@ -2132,8 +2133,8 @@ AudioReverbZone:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 672404179}
   m_Enabled: 1
-  m_MinDistance: 14.1899996
-  m_MaxDistance: 17.4400005
+  m_MinDistance: 63.2000008
+  m_MaxDistance: 85.5
   m_ReverbPreset: 27
   m_Room: -1000
   m_RoomHF: -237
@@ -3274,8 +3275,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039604438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.7400017, y: -17.7299995, z: -74.5599976}
-  m_LocalScale: {x: 4.71453667, y: 2, z: 2}
+  m_LocalPosition: {x: 47.7400017, y: -17.7299995, z: -76.6999969}
+  m_LocalScale: {x: 4.71453667, y: 2, z: 6.48612785}
   m_Children: []
   m_Father: {fileID: 1333815844}
   m_RootOrder: 4
@@ -3612,7 +3613,6 @@ MonoBehaviour:
   m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ForceModuleActive: 0
 --- !u!114 &1287391129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3624,13 +3624,6 @@ MonoBehaviour:
   m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: .5
-  m_ForceModuleActive: 0
 --- !u!114 &1287391130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3642,9 +3635,6 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 5
 --- !u!4 &1287391131
 Transform:
   m_ObjectHideFlags: 0
@@ -4160,7 +4150,6 @@ Transform:
   - {fileID: 978147221}
   - {fileID: 286290973}
   - {fileID: 445832705}
-  - {fileID: 672404180}
   m_Father: {fileID: 157877560}
   m_RootOrder: 6
 --- !u!1 &1545641611
@@ -4474,6 +4463,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 104988, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 733f5313e8967ef4ba194e13f8410b74, type: 2}
   m_IsPrefabParent: 0
@@ -4568,7 +4561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 443404, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
       propertyPath: m_Cam
