@@ -434,7 +434,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11410794, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
       propertyPath: m_Text
-      value: Game over.  You suck
+      value: Game over.  You suck.
       objectReference: {fileID: 0}
     - target: {fileID: 11450826, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
       propertyPath: m_Text
