@@ -51,6 +51,7 @@ public class PlayerScript : HumanBaseScript {
     public AudioClip Clip_Hurt1;
     public AudioClip Clip_Hurt2;
     public AudioClip Clip_Death;
+    public AudioClip Clilp_Splash;
 
     [SerializeField] float m_MovingTurnSpeed = 360;
     [SerializeField] float m_StationaryTurnSpeed = 180;
@@ -158,6 +159,7 @@ public class PlayerScript : HumanBaseScript {
                 attackInit = false;
                 m_Attacking = false;
                 attackExecuted = true;
+                audio.PlayOneShot(Clilp_Splash, 1);
             }
         }
 

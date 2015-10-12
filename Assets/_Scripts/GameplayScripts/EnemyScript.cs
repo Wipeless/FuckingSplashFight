@@ -44,9 +44,13 @@ public class EnemyScript : HumanBaseScript
     public AudioClip Clip_Death1;
     public AudioClip Clip_Death2;
     public AudioClip Clip_Death3;
+    public AudioClip Clip_Death4;
+    public AudioClip Clip_Death5;
     public AudioClip Clip_Aggress1;
     public AudioClip Clip_Aggress2;
     public AudioClip Clip_Aggress3;
+    public AudioClip Clip_Aggress4;
+    public AudioClip Clip_Aggress5;
 
     private bool isAttacking = false;
     private float isAttackingTimer;  //time used to give multiple damage to player if collision still true
@@ -225,6 +229,14 @@ public class EnemyScript : HumanBaseScript
                     if (SceneManager.IncrementSFX())
                         audio.PlayOneShot(Clip_Aggress3, 1);
                     break;
+                case 3:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Aggress4, 1);
+                    break;
+                case 4:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Aggress5, 1);
+                    break;
                 default:
                     //no audio
                     break;
@@ -245,7 +257,7 @@ public class EnemyScript : HumanBaseScript
             m_RigidBody.constraints = RigidbodyConstraints.None;
             m_Dead = true;
             deathTimer = Time.time;
-            int rand = Random.Range(0, 4);
+            int rand = Random.Range(0, 6);
             switch (rand)
             {
                 case 0:
@@ -259,6 +271,14 @@ public class EnemyScript : HumanBaseScript
                 case 2:
                     if (SceneManager.IncrementSFX())
                         audio.PlayOneShot(Clip_Death3, 1);
+                    break;
+                case 3:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Death4, 1);
+                    break; 
+                case 4:
+                    if (SceneManager.IncrementSFX())
+                        audio.PlayOneShot(Clip_Death5, 1);
                     break;
                 default:
                     //no audio

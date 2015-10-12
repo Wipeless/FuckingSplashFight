@@ -857,7 +857,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.42500019, y: 0, z: 5.23999977}
+  m_LocalPosition: {x: 8, y: 0, z: 5.23999977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 426556}
@@ -1316,9 +1316,13 @@ MonoBehaviour:
   Clip_Death1: {fileID: 8300000, guid: cc8534956c5febb429120590dc66d293, type: 3}
   Clip_Death2: {fileID: 8300000, guid: e800e5e3430bc0b44ba95505c64e649e, type: 3}
   Clip_Death3: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
+  Clip_Death4: {fileID: 8300000, guid: 6326ce2ab6720ef48b1c5731dcd79552, type: 3}
+  Clip_Death5: {fileID: 8300000, guid: 9fb39d62d7745f545b6d8daff370ab64, type: 3}
   Clip_Aggress1: {fileID: 8300000, guid: 09f3ad6e6c2137d4dbd780f8d16b9a00, type: 3}
   Clip_Aggress2: {fileID: 8300000, guid: cf59e59e6abffed429b705b49fbd1d9c, type: 3}
   Clip_Aggress3: {fileID: 8300000, guid: 0866466100338f0458857e1c91f80846, type: 3}
+  Clip_Aggress4: {fileID: 8300000, guid: 9ba2ab77c1112894dab40be8dc7921ca, type: 3}
+  Clip_Aggress5: {fileID: 8300000, guid: 911967bc3e4619146aa925df73d8eaae, type: 3}
   m_RunCycleLegOffset: .200000003
 --- !u!137 &13750620
 SkinnedMeshRenderer:
