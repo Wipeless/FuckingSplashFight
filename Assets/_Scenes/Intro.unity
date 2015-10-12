@@ -347,6 +347,7 @@ GameObject:
   - 114: {fileID: 989955755}
   - 114: {fileID: 989955754}
   - 82: {fileID: 989955757}
+  - 164: {fileID: 989955758}
   m_Layer: 5
   m_Name: Images
   m_TagString: Untagged
@@ -500,6 +501,29 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!164 &989955758
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989955752}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -800
+  m_RoomRolloff: 0
+  m_DecayTime: 1.49000001
+  m_DecayHFRatio: .670000017
+  m_ReflectionsLevel: -2273
+  m_ReverbLevel: -1691
+  m_ReverbDelay: .0109999999
+  m_Diffusion: 50
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 17
 --- !u!1 &1399655747
 GameObject:
   m_ObjectHideFlags: 0
