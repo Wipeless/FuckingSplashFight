@@ -303,7 +303,7 @@ public class EnemyScript : HumanBaseScript
     {
         try
         {
-            //Time.timeScale = GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale;
+            Time.timeScale = GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale;
         }
         catch
         {

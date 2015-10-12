@@ -27,7 +27,7 @@ public class cameraFollowPlayer2 : MonoBehaviour {
             if (LookTarget.GetComponent<PlayerScript>().AttackInit)
             {
                 if (timeScale == 1f)
-                    setTimeScale(.4f);
+                    setTimeScale(.7f);
                 GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smoothness);
             }
             else
@@ -43,13 +43,14 @@ public class cameraFollowPlayer2 : MonoBehaviour {
     {
         try
         {
-            //GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale = t;
+            GameObject.Find("SceneManager").GetComponent<SceneManager>().TimeScale = t;
             Time.timeScale = t;
             timeScale = t;
         }
-        catch
+        catch 
         {
             timeScale = 1f;
+            Debug.Log("didn't find SceneManager");
         }
     }
 }
