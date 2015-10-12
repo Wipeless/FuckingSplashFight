@@ -97,6 +97,7 @@ GameObject:
   - 92: {fileID: 37950707}
   - 124: {fileID: 37950706}
   - 114: {fileID: 37950705}
+  - 81: {fileID: 37950710}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -178,6 +179,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!81 &37950710
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37950704}
+  m_Enabled: 1
 --- !u!1001 &40385006
 Prefab:
   m_ObjectHideFlags: 0
@@ -369,6 +377,10 @@ Prefab:
       objectReference: {fileID: 37950709}
     - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
       propertyPath: HUD
+      value: 
+      objectReference: {fileID: 1320888483}
+    - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
+      propertyPath: HUD_PauseMenu
       value: 
       objectReference: {fileID: 1320888483}
     m_RemovedComponents: []

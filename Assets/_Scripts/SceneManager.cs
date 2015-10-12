@@ -31,6 +31,8 @@ public class SceneManager : MonoBehaviour {
     public static float SFXTimer;
     const float SFXTimerLimit = 1;
 
+    public float TimeScale = 1f;
+
     void Start()
     {
         startNewLevel = true;
