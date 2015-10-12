@@ -376,18 +376,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 847204890}
-    - target: {fileID: 11450826, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
-      propertyPath: m_Text
-      value: awesome
-      objectReference: {fileID: 0}
-    - target: {fileID: 11410794, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
-      propertyPath: m_Text
-      value: Game over.  You're the best
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494612, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 300
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
   m_IsPrefabParent: 0
