@@ -3613,6 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
 --- !u!114 &1287391129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3624,6 +3625,13 @@ MonoBehaviour:
   m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: .5
+  m_ForceModuleActive: 0
 --- !u!114 &1287391130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3635,6 +3643,9 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
 --- !u!4 &1287391131
 Transform:
   m_ObjectHideFlags: 0
@@ -4561,24 +4572,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 443404, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
-      propertyPath: m_Cam
-      value: 
-      objectReference: {fileID: 1987183653}
-    - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
-      propertyPath: HUD
-      value: 
-      objectReference: {fileID: 1915997487}
     - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
       propertyPath: HUD_PauseMenu
       value: 
       objectReference: {fileID: 1915997487}
     - target: {fileID: 11481480, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
-      propertyPath: ForcePower
-      value: 250
-      objectReference: {fileID: 0}
+      propertyPath: m_Cam
+      value: 
+      objectReference: {fileID: 1987183653}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11971c1e4ed22ac4294a69352108162c, type: 2}
   m_IsPrefabParent: 0

@@ -803,7 +803,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.00714493, y: 9.08466394e-17, z: -19.7999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 482948}
@@ -1300,13 +1300,14 @@ MonoBehaviour:
   HUD_PauseMenu: {fileID: 0}
   DamageAmount: 25
   MoveRate: 20
-  ForcePower: 150
+  ForcePower: 250
   m_Cam: {fileID: 0}
   Clip_Attack1: {fileID: 8300000, guid: aeba77d27e8308e44b2998c69bb9afd4, type: 3}
   Clip_Attack2: {fileID: 8300000, guid: a69020411ae11224b8180d9472fb7731, type: 3}
   Clip_Hurt1: {fileID: 8300000, guid: 3bee9ab831571fd4cb3cb9efdf7a58ff, type: 3}
   Clip_Hurt2: {fileID: 8300000, guid: 45dd57f4a3b23374a83162d9495758fe, type: 3}
   Clip_Death: {fileID: 8300000, guid: 7c726778eb5b8f44684469c01cabb3ae, type: 3}
+  Clilp_Splash: {fileID: 8300000, guid: 5de076103fc823b44ae0d63411469850, type: 3}
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
   m_RunCycleLegOffset: .200000003
