@@ -126,7 +126,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 1
+        second: .773999989
       data:
         first:
           name: _EmissionScaleUI
