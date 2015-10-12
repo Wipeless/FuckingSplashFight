@@ -396,7 +396,7 @@ MonoBehaviour:
   Clip_Slide3: {fileID: 8300000, guid: 6c25a7bf6255e9e4baacc284ba04ddf3, type: 3}
   Clip_Slide4: {fileID: 8300000, guid: 504dc4caa9b46274098b9417b14402a8, type: 3}
   Clip_Slide5: {fileID: 8300000, guid: 5de076103fc823b44ae0d63411469850, type: 3}
-  Clip_Slide6: {fileID: 8300000, guid: 0e0d0a77656b48e4ab058424fd772acc, type: 3}
+  Clip_Slide6: {fileID: 8300000, guid: 6505461c83e10b74e8b05c0fee79017d, type: 3}
 --- !u!114 &989955755
 MonoBehaviour:
   m_ObjectHideFlags: 0
