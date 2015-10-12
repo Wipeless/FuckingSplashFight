@@ -1,1184 +1,316 @@
 Initialize engine version: 5.2.1f1 (44735ea161b3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 10.1]
-    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
-    Vendor:   Intel
-    VRAM:     128 MB
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 650M (ID=0xfd5)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.197 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.129 seconds
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Kevin\Documents\GitHub\FuckingSplashFight\test_Data\Managed\System.dll (this message is harmless)
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Platform assembly: C:\Users\Danny\Documents\GitHub\FuckingSplashFight\FuckingSplashFight\test_Data\Managed\System.dll (this message is harmless)
+start new level
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 15a4 -> priority: 1 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+SceneManager: the level has started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 10b0 -> priority: 1 
+  Thread -> id: 2e58 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.890714 ms
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 327.
+Total: 0.406977 ms (FindLiveObjects: 0.029605 ms CreateObjectMapping: 0.031579 ms MarkObjects: 0.332766 ms  DeleteObjects: 0.011842 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+6
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Slide1
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Slide2
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Slide3
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Scene '' (1) couldn't be loaded because it has not been added to the build settings or the asset bundle has not been loaded.
-To add a scene to the build settings use the menu File->Build Settings...
+Slide4
  
-(Filename:  Line: 382)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Slide5
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Slide6
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 0.8929172
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 10.89292
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Starting to Fade...
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 10.90414
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 19.90414
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading in
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Starting to Fade...
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 19.90568
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 27.90568
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading in
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Starting to Fade...
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 27.90796
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 34.90797
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading in
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Starting to Fade...
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 34.92118
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 40.92118
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading in
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Starting to Fade...
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+nowTime: 40.92346
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+endTime: 45.92346
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading in
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+done fading out
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450399 ms
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1201.
+Total: 0.368687 ms (FindLiveObjects: 0.038684 ms CreateObjectMapping: 0.027237 ms MarkObjects: 0.281055 ms  DeleteObjects: 0.021315 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+start new level
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+SceneManager: the level has started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Attack!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Attack!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Numba 1 stunnaaaaaaaa/music
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+everything set. start level!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+SceneManager: the level has started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Attack!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+Attack!
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.421855 ms
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 289.
+Total: 0.868824 ms (FindLiveObjects: 0.041842 ms CreateObjectMapping: 0.028026 ms MarkObjects: 0.318555 ms  DeleteObjects: 0.478820 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+start new level
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+SceneManager: the level has started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.536057 ms
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 291.
+Total: 0.281844 ms (FindLiveObjects: 0.024868 ms CreateObjectMapping: 0.015789 ms MarkObjects: 0.226186 ms  DeleteObjects: 0.013815 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+start new level
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at SceneManager.HandlePlayer () [0x00000] in <filename unknown>:0 
-  at SceneManager.Update () [0x00000] in <filename unknown>:0 
+SceneManager: the level has started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
