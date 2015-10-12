@@ -17,10 +17,29 @@ public class SlideShowScript : MonoBehaviour {
     bool currentlyFadingOut = false;
 
     //SlideShow intro = new SlideShow();
+    AudioSource audio;
 
+    public AudioClip Clip_Slide1;
+    public AudioClip Clip_Slide2;
+    public AudioClip Clip_Slide3;
+    public AudioClip Clip_Slide4;
+    public AudioClip Clip_Slide5;
+    public AudioClip Clip_Slide6;
+
+    private AudioClip[] Clip_Array;
 
     void Start()
     {
+        audio = GetComponent<AudioSource>();
+        Clip_Array = new AudioClip[6];
+
+        Clip_Array[0] = Clip_Slide1;
+        Clip_Array[1] = Clip_Slide2;
+        Clip_Array[2] = Clip_Slide3;
+        Clip_Array[3] = Clip_Slide4;
+        Clip_Array[4] = Clip_Slide5;
+        Clip_Array[5] = Clip_Slide6;
+
         // first get all items unsorted
         items = GameObject.FindGameObjectsWithTag("IntroSlide") as GameObject[];
         Debug.Log(items.Length);
@@ -57,10 +76,11 @@ public class SlideShowScript : MonoBehaviour {
         if (nowTime >= endTime )
         {
             getNextSlide();
-
         }
         if (currentlyFadingIn)
         {
+            //beginning of slide 
+
             Image myImage = fadingSlide.GetComponentInChildren<Image>();
             Color c = myImage.color;
             float alpha = c.a;
@@ -70,6 +90,8 @@ public class SlideShowScript : MonoBehaviour {
             myImage.color = newColor;
             if (newColor.a >= 1f)
             {
+                //slide displayed 
+                audio.PlayOneShot(Clip_Array[currentSlideIndex], 1f);
                 currentlyFadingIn = false;
                 Debug.Log("done fading in");
             }

@@ -389,6 +389,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intervalTime: 7
   fadeTime: 3
+  Clip_Slide1: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
+  Clip_Slide2: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
+  Clip_Slide3: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
+  Clip_Slide4: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
+  Clip_Slide5: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
+  Clip_Slide6: {fileID: 8300000, guid: fca0c735515edd54c8384b0500558a01, type: 3}
 --- !u!114 &989955755
 MonoBehaviour:
   m_ObjectHideFlags: 0

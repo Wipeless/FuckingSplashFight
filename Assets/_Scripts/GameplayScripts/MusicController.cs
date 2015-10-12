@@ -71,19 +71,19 @@ public class MusicController : MonoBehaviour {
         if (MusicTrigger3.GetComponent<RoomTrigger>().CheckPointReached)
         {
             Room3.TransitionTo(m_TransitionIn);
-            Debug.Log("Fucking MUsic3");
+           // Debug.Log("Fucking MUsic3");
         }
 
         else if (MusicTrigger2.GetComponent<RoomTrigger>().CheckPointReached)
         {
             Room2.TransitionTo(m_TransitionIn);
-            Debug.Log("Fucken Music2 dawg");
+           // Debug.Log("Fucken Music2 dawg");
         }
 
         else if (MusicTrigger1.GetComponent<RoomTrigger>().CheckPointReached)
         {
             Room1.TransitionTo(m_TransitionIn);
-            Debug.Log("Numba 1 stunnaaaaaaaa/music");
+           // Debug.Log("Numba 1 stunnaaaaaaaa/music");
         }
     }
 }

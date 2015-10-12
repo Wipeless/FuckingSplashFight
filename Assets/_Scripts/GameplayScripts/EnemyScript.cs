@@ -17,8 +17,6 @@ public class EnemyScript : HumanBaseScript
 
     private bool isInitialized = false;
 
-    public float ForceBlowBack = 200;
-
     public Transform AggressTarget;
     private float aggressionTimer;
     private float aggressionTimerLimit;
@@ -266,7 +264,7 @@ public class EnemyScript : HumanBaseScript
                     //no audio
                     break;
             }
-            GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * ForceBlowBack, orginPosition);
+            GetComponent<Rigidbody>().AddForceAtPosition(Vector3.Normalize(transform.position - orginPosition) * damageValue, orginPosition);
             tag = "Untagged";
         }
     }
