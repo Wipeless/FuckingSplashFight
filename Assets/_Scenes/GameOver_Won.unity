@@ -365,78 +365,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 847204889}
   m_Script: {fileID: 11500000, guid: ecc592b1c0948ad4fb6063fcfc444665, type: 3}
---- !u!1 &1156302713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 1156302714}
-  - 222: {fileID: 1156302716}
-  - 114: {fileID: 1156302715}
-  m_Layer: 5
-  m_Name: Text_Extra
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1156302714
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1156302713}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1959724326}
-  m_RootOrder: 4
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: -202}
-  m_SizeDelta: {x: 600, y: 30}
-  m_Pivot: {x: .5, y: .5}
---- !u!114 &1156302715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1156302713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: This game was developed as part of Indie Speed Run 2015 (www.indiespeedrun.com)
---- !u!222 &1156302716
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1156302713}
 --- !u!1001 &1959724325
 Prefab:
   m_ObjectHideFlags: 0
@@ -522,13 +450,53 @@ Prefab:
       objectReference: {fileID: 847204890}
     - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 62
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 11416386, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
       propertyPath: m_Text
       value: "Kevin Helton  \t\t\t\t\t\tProgrammer and Ambasador\nDaniel Rohrlick\t\t\t\t\t\tProgrammer
         and Tired\nSanabu Washizuka\t\t\t\tArt Director and President\nMatthew Wright\t\t\t\t\tAudio/Music
         and Texture Artists and 1st Place"
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482494, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482494, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482494, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482494, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 22437160, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22428610, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 268
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddb2e8b22e8728447ac3c621f992b141, type: 2}
